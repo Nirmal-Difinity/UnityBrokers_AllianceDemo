@@ -1,0 +1,16 @@
+﻿{
+  "Name": "LOGOUT",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "LNFTnHcDAU-xxU2jap6jow",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/LNFTnHcDAU-xxU2jap6jow",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/pdDYb-Cq40uPBmJQq_jY4A",
+  "Created": "2025-12-01T09:14:22.0541477Z",
+  "Updated": "2025-12-01T09:15:17.4246914Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

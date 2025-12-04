@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yG-7SDYmpka_Sfs_fOa4ZQ" Reference="WCf4262-9EGvP7sTIveqRQ/Yf06HZWPfE20_tL39EHLnA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="420, 623, 320, 33" CvType="InputBox" DesignTimeRectangle="424, 571, 314, 39" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl class='mat-form-field-infix' type='' aaname='' tag='DIV' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c2a12c4a-aff3-4c90-8261-0ca1abd6ee8e" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="420, 623, 320, 33" CvType="InputBox" DesignTimeRectangle="424, 588, 314, 15" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='mobileNoId' tag='INPUT' /&gt;" Guid="2bce29be-e139-47e9-beaf-b2403cde7bc4" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="96c80a471fad45b8ef176ca4b5ad8d92.png" xmlns="">0rlgYgGyoYUOPQDzK5HSlPQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

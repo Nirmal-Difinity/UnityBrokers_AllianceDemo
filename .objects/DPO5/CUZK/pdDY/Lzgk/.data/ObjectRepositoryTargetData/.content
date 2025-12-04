@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hZvnefAhik2vJtq_s0hZmw" Reference="WCf4262-9EGvP7sTIveqRQ/Lzgk9-l_uUKWavDGwu3nNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" DesignTimeRectangle="1224, 241, 190, 56" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Motor Insurance' tag='A' /&gt;" Guid="2d395037-4238-43a9-a303-2b6fae0e8e67" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="110d2ed61f6fd7fcdebb592e17552adb.png" xmlns="">01ogfuDWsDUCuO35q1G3Wpg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

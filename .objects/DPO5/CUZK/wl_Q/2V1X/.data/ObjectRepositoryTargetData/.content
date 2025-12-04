@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ETltJZ0ljkKnmFLLmuwzUg" Reference="WCf4262-9EGvP7sTIveqRQ/2V1XIMuvvEeNw8uYBTG3Hw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="421, 481, 318, 32" CvType="InputBox" DesignTimeRectangle="424, 427, 314, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-form-field-infix' idx='2' tag='DIV' /&gt;" Guid="aad09698-3ad5-468c-9533-730dea707403" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="421, 481, 318, 32" CvType="InputBox" DesignTimeRectangle="420, 437, 317, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-118' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-321 ng-star-inserted' aaname='Client Type *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Client Type *' /&gt;" Guid="ddd8499a-66b0-4f33-9bc5-3e9e7a34744c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="63df4ae375c4095c67c4bc0782c4bce8.png" xmlns="">0WoBPw8Nk5ke0yf0HO7D0vw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

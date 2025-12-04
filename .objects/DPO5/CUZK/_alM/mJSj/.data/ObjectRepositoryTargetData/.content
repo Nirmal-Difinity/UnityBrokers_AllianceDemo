@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mzyQcdBbdkuLuZSTMWWAGA" Reference="WCf4262-9EGvP7sTIveqRQ/mJSjglf510Wpkx0Q4MJTyw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="aa1331ae-d1e5-4bf6-b9c2-4f527cd33d31" CvElementArea="906, 806, 124, 34" CvTextArea="945, 816, 45, 13" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="908, 808, 120, 30" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='sub-btn' tag='BUTTON' /&gt;" Guid="9c525984-f9b6-47cc-a625-c327d6a6ebb2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Interactive]">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="89587588c0afb55365b7406d9ac2d75c.png" xmlns="">0gm-IjV4_KUqRlbeTjquyMw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

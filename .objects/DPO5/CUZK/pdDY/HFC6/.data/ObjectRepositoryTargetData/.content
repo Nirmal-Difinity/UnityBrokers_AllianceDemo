@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rCT_74iUw0S28Kq7mLXh2Q" Reference="WCf4262-9EGvP7sTIveqRQ/HFC68bMibEyoSlMvtYX8Gw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="80e47b16-1189-4b89-9522-c929369ecfb2" CvElementArea="1265, 215, 22, 20" CvType="ArrowButton" DesignTimeRectangle="1269, 218, 14, 14" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' parentid='commonHeader' tag='I' /&gt;" Guid="8900abdf-fdec-4859-9b73-db1dc192fa01" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1219, 216, 64, 19" FuzzySelectorArgument="&lt;webctrl aaname='QUOTE ' tag='SPAN' type='' class='dropdownBtn addMember fontColorBlue pointer' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='QUOTE' /&gt;" Guid="c75ea5ac-9595-48c7-a47d-d5460e3418aa" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="83b0e4fd3db7fb9c2f2b2073cb0dfee0.png" xmlns="">0Xj3LT9mqLk-x2WBXcwpMaQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="o13hxR5KQ06ImjABncWkQQ" Reference="WCf4262-9EGvP7sTIveqRQ/6ow47fgXMkChdk03C-O1aA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="422, 555, 317, 28" CvType="InputBox" DesignTimeRectangle="424, 499, 314, 39" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-form-field-infix' css-selector='body&amp;gt;app-root&amp;gt;app-motor-get-quote&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;mat-form-field&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' tag='DIV' /&gt;" Guid="328807b2-1cd6-4295-b754-0afb234f6bee" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="422, 555, 317, 28" CvType="InputBox" DesignTimeRectangle="422, 510, 316, 28" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='mat-input-84' tag='INPUT' /&gt;" Guid="e80cd9cd-93a5-4ff6-bf91-a9a53d737fac" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f197f3ec9a1fe56fc8cf0a80c7cf64b6.png" xmlns="">0zzATMZ8XaUK6a18Jyw4QJQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

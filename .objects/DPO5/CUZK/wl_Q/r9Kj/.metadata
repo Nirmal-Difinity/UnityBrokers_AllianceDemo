@@ -1,0 +1,13 @@
+﻿{
+  "Name": "DYH_UAELiscense_YES",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "r9KjsiD4u06giXzB0f-Jng",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/r9KjsiD4u06giXzB0f-Jng",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-03T09:50:02.7188731Z",
+  "Updated": "2025-12-03T09:50:02.7188731Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

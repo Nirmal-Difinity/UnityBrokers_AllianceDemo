@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OmShOhUlVk-zyvEIa04x5w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="bd1d6275-00c9-4960-9ebb-b29ecfbbba8b" CvElementArea="766, 440, 108, 28" CvType="InputBox" DesignTimeRectangle="424, 629, 314, 39" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;&lt;webctrl class='mat-form-field-infix' tag='DIV' idx='7' /&gt;" Guid="6ab8b97c-b658-4a52-8726-d70ec92c2875" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="dc37b62b50070b5f74d0921eb622ff65.png" xmlns="">02gh9cDcJFEWpX8gaqbg2tQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

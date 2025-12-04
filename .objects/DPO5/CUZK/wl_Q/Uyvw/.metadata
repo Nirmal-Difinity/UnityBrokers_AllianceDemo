@@ -1,0 +1,13 @@
+﻿{
+  "Name": "IsDriverSAP_YES",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "UyvwU6UQ6Eaqj-o6LKwzhg",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/UyvwU6UQ6Eaqj-o6LKwzhg",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-03T09:50:02.218513Z",
+  "Updated": "2025-12-03T09:50:02.218513Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
