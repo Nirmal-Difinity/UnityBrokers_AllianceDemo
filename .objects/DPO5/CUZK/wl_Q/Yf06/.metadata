@@ -1,0 +1,13 @@
+﻿{
+  "Name": "+971Mobile Number*",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "Yf06HZWPfE20_tL39EHLnA",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/Yf06HZWPfE20_tL39EHLnA",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-03T09:42:40.8473092Z",
+  "Updated": "2025-12-03T09:42:40.8473092Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

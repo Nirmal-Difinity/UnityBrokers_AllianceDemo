@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Motor_insurance",
+  "Type": "Screen",
+  "Id": "wl_QWvXQKUK5PZATCKQ4Bw",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/CUZKxpYRbUqC3TH0r17H1A",
+  "Created": "2025-12-03T09:42:08.3942553Z",
+  "Updated": "2025-12-03T09:42:21.3035324Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

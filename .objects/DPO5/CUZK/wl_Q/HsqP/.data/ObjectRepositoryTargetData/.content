@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qodUbNO0tUGG4P96ES65hg" Reference="WCf4262-9EGvP7sTIveqRQ/HsqPa99eS0-UsJ8uyRvMjw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" DesignTimeRectangle="421, 759, 285, 39" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;&lt;webctrl class='mat-form-field-infix' tag='DIV' innertext='DOB (dd/mm/yyyy) *' /&gt;" Guid="24d34a28-cfb7-4c95-9c99-b0d8f11b01a3" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="71a854a4-c8a7-4ec5-9020-c74cf27a8d1c" CvElementArea="710, 768, 23, 24" CvType="Icon" DesignTimeRectangle="705, 764, 33, 33" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;app-motor-get-quote&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;mat-form-field&amp;gt;div&amp;gt;div&amp;gt;div' idx='4' tag='DIV' /&gt;" Guid="e674aa78-462b-45ed-a342-8a6f36b365bd" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAYAAADFniADAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEfSURBVFhH7ZbBDkQwEIY9opfxEhKCi6ujE3dHT8AdIZ5BJBy6mSaV3SJmZCvdTb/kP1idmS9loxbTEEv+QQeMFBYjhcVIYfkfqaIomOM4rK5r+dZGVVV8DaylQpYax5GlaboNbJrmMEIc1kINBbTUsizM930+6E6CIGDrusptD0FL9X2/G0TNMAxy20PQUm3b7oZQA48Vw29LdV3HGydJsnuprwI1SqTETmVZJt+6BGqUSImdyvOcX5dlyeI4/sgZyqTknRKD3nOGMiloaKQwCCmt3il5pygYKSzKpMQHOYoifiyhJAxDXgs9MKCl4Ojiuu7uH4eN53nfP7oA0zTxR3An8zzL7U4hST2FkcJipLDoLWXb9iPBYFELnkBLqRcm2AMgEvBXYgAAAABJRU5ErkJggg==" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ee900d8bb044400c729f1684fcf689c7.png" xmlns="">0FX2Z9hNMG0qnMCwcfiyXQA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

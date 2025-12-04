@@ -1,0 +1,13 @@
+﻿{
+  "Name": "NEXT",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "ESyheA5Ysk-AzX1dT9c9_Q",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/ESyheA5Ysk-AzX1dT9c9_Q",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-03T09:43:11.5743881Z",
+  "Updated": "2025-12-03T09:43:11.5743881Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

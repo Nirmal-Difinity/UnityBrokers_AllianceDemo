@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BxpsK9aCAkCV3pZ9f85hpw" Reference="WCf4262-9EGvP7sTIveqRQ/EXLfq99wJ0GzO6R3BYbk6w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="a5cd875c-ba49-46bc-a20b-c5e84477d942" CvElementArea="857, 704, 31, 30" CvType="CheckBox" DesignTimeRectangle="862, 708, 20, 19" DesignTimeScaleFactor="1" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' ' tag='SPAN' /&gt;" Guid="2ed8dfb3-c6f1-488f-af2b-08069a232710" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Interactive]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="a5cd875c-ba49-46bc-a20b-c5e84477d942" CvTextArea="899, 712, 87, 13" CvTextArgument="I'm not a robot" CvType="Text" DesignTimeRectangle="900, 708, 85, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='text_1' tag='DIV' type='' aaname=' I&amp;apos;m not a robot ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='I&amp;apos;m not a robot' /&gt;" Guid="eb84d0d4-c83d-4188-9a33-f27113685643" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="03464440d45ecd985768bd08652f8094.png" xmlns="">0fgcq5vX28EKQcAqMMxdNug</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

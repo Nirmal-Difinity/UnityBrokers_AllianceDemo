@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Q6aCtine8U2Dqo7szb-3LQ" Reference="WCf4262-9EGvP7sTIveqRQ/SxT5qj9B_UOley9JodYMLA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="f0431701-a98b-4ff8-9621-f761a54af141" CvElementArea="880, 484, 192, 26" CvType="InputBox" DesignTimeRectangle="881, 472, 192, 39" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl class='mat-form-field-infix' type='' aaname='' tag='DIV' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ba961a91-468d-44c6-adcc-2bd183415743" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f0431701-a98b-4ff8-9621-f761a54af141" CvTextArea="761, 470, 43, 13" CvTextArgument="Prefix *" CvType="Text" DesignTimeRectangle="762, 471, 78, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='mat-form-field-label-471' tag='LABEL' type='' class='mat-form-field-label ng-tns-c5-364 ng-star-inserted' aaname='Prefix *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Prefix *' /&gt;" Guid="5e837e82-626a-440c-b61d-763ccbf4a44d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4c3804723650b5b007e79a6aee6a5c22.png" xmlns="">0rcAqPYMFYEubGQIdMo5hSg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

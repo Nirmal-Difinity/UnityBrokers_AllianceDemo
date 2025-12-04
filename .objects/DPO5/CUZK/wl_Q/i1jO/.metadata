@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Business Type",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "i1jOyG-xiE25kffftYrMbg",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/i1jOyG-xiE25kffftYrMbg",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-03T09:42:30.9547967Z",
+  "Updated": "2025-12-03T09:42:30.9547967Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

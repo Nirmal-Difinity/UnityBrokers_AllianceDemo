@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hAVyWy8aC0acnWt6CLP2yg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" DesignTimeRectangle="12, 175, 1912, 153" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='DIV' innertext='Motor Insurance' /&gt;" Guid="24ea786c-69e0-441c-8280-c6f635581e4c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="085dd92f0fd443851307d1dfc6c3d2e6.png" xmlns="">02OmcjGMecEiqHhIJ6q3ooQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

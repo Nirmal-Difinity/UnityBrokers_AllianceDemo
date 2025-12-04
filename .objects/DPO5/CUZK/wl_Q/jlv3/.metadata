@@ -1,0 +1,16 @@
+﻿{
+  "Name": "DYH_UAELiscense_NO",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "jlv3dxx3AUeIuzf2aGj_9g",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/jlv3dxx3AUeIuzf2aGj_9g",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-03T09:50:02.7853964Z",
+  "Updated": "2025-12-03T09:54:08.1089331Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

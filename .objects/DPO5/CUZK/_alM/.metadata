@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge: Alliance",
+  "Type": "Screen",
+  "Id": "_alMU-v7oU-biKEeFgQRlg",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/_alMU-v7oU-biKEeFgQRlg",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/CUZKxpYRbUqC3TH0r17H1A",
+  "Created": "2025-12-01T06:12:55.9143443Z",
+  "Updated": "2025-12-01T06:12:55.9143443Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

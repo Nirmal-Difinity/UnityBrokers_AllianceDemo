@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Proposer Name *",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "SxT5qj9B_UOley9JodYMLA",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/SxT5qj9B_UOley9JodYMLA",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-03T09:43:25.9291677Z",
+  "Updated": "2025-12-03T09:43:25.9291677Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

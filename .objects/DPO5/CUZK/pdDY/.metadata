@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Edge: Alliance - Home",
+  "Type": "Screen",
+  "Id": "pdDYb-Cq40uPBmJQq_jY4A",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/pdDYb-Cq40uPBmJQq_jY4A",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/CUZKxpYRbUqC3TH0r17H1A",
+  "Created": "2025-12-01T09:12:37.7567417Z",
+  "Updated": "2025-12-01T09:15:35.0368082Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

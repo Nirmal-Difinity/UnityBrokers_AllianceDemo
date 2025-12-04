@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ju4if_nui0OKToMNIFuvKA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="b5318f38-bc30-4400-920c-a824a69198bc" CvElementArea="782, 519, 28, 27" CvTextArea="812, 525, 23, 13" CvTextArgument="Yes" CvType="RadioButton" DesignTimeRectangle="783, 519, 52, 23" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Yes' tag='LABEL' /&gt;" Guid="b87a2cfd-39dc-4f46-b986-eaf9b9765c67" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b5318f38-bc30-4400-920c-a824a69198bc" CvTextArea="767, 503, 198, 15" CvTextArgument="Is the driver same as the proposer?" CvType="Text" DesignTimeRectangle="768, 501, 196, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Is the driver same as the proposer? ' tag='LABEL' type='' class='marginBottomZero fontWeightnormal fontRegular' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Is the driver same as the proposer?' /&gt;" Guid="c05c5d83-8689-4100-ac07-d5d173bac3ba" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="1e41ca0962d9341ae130c2cf9a50acdf.png" xmlns="">0YEtZ-tBK0UCnyZy43JttSQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

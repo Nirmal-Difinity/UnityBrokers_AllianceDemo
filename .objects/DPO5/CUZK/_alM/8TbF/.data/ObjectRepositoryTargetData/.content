@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mRTxeYdFOEuxCZIDD5cgxA" Reference="WCf4262-9EGvP7sTIveqRQ/8TbFjNaUxkehIPrg-_necw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="d5ccf098-44ca-4a51-b042-53bb5144daa2" CvElementArea="816, 613, 292, 38" CvType="InputBox" DesignTimeRectangle="818, 614, 265, 36" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" Guid="3da077c1-843f-40af-8963-b8794b6d84d6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Interactive]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="d5ccf098-44ca-4a51-b042-53bb5144daa2" CvElementArea="816, 613, 292, 38" CvType="InputBox" DesignTimeRectangle="1089, 621, 16, 22" FullSelectorArgument="&lt;webctrl idx='2' tag='I' /&gt;" Guid="501e2e03-f328-4cdf-8bd2-92a39cdc134c" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="56ea9e15bb1110516e8c68bbaa5561ae.png" xmlns="">0jBYHxaWrVEiPD13ygm0k4A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
