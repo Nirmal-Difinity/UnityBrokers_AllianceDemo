@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="kZ8hBjHhrEibhhHv9Y8dyg" Reference="WCf4262-9EGvP7sTIveqRQ/i1jOyG-xiE25kffftYrMbg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="RvpqkINWqUeRtVv7nlpSeg" Reference="WCf4262-9EGvP7sTIveqRQ/i1jOyG-xiE25kffftYrMbg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="e361da31-349d-4516-bfa3-28a8006c59cb" CvElementArea="421, 323, 318, 30" CvTextArea="423, 311, 81, 15" CvTextArgument="Business Type" CvType="InputBox" DesignTimeRectangle="424, 313, 314, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-form-field-infix' tag='DIV' /&gt;" Guid="998c8ea6-9bcf-4e7a-b0e3-d6aed3a7f444" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-      <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="e361da31-349d-4516-bfa3-28a8006c59cb" CvTextArea="424, 375, 129, 20" CvTextArgument="Basic Details" CvType="Text" DesignTimeRectangle="424, 370, 129, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Basic Details' tag='LABEL' type='' class='largeFont fontRegular fontWeightnormal' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Basic Details' /&gt;" Guid="4c1f15ff-cae6-441d-a4e0-ce24d3642e15" SearchSteps="FuzzySelector, CV" />
-        </scg:List>
-      </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="a5dba142b561a68eca1fe95e8b15e152.png" xmlns="">0l2VlsAJCp0u6-dGHUMGTcQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" DesignTimeRectangle="424, 331, 296, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Business Type' /&gt;" FuzzyAccuracy="1" Guid="f82c3e5c-3ded-4f8d-924c-8a7553108974" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <imageRef attrName="InformativeScreenshot" originalValue="d5fea718610f1cb7921d05396e22f40a.png" xmlns="">0jC3Yuo52jEqj6Ei6sZFEMw</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

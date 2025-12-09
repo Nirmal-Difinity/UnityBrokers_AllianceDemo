@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N3zKQ-IFVUe2UWYwK0a6hQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="663564cd-1a3c-4d5f-8d71-2989cd4c2bf9" CvElementArea="421, 448, 317, 31" CvType="InputBox" DesignTimeRectangle="424, 457, 296, 16" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='mat-form-field-label-173' tag='LABEL' type='' class='mat-form-field-label ng-tns-c5-128 mat-empty mat-form-field-empty ng-star-inserted' aaname='Geographical Cover  *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Geographical Cover *' /&gt;" Guid="fb05a97e-6c72-468f-a3ab-83985326a12c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="663564cd-1a3c-4d5f-8d71-2989cd4c2bf9" CvElementArea="421, 448, 317, 31" CvType="InputBox" DesignTimeRectangle="424, 455, 296, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-41' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-129 ng-star-inserted' aaname='Geographical Cover  *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Geographical Cover *' /&gt;" Guid="3dfe3866-3ff3-4c9e-92c1-72864e9cf925" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="6b1e87cec83d5931010fe945948b477d.png" xmlns="">0lu7_yNxVXE2mpGZh-BM9kQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Claim Experience Previo…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "jVl7JwFLt0CFJllxd6TSug",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/jVl7JwFLt0CFJllxd6TSug",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-05T06:16:48.0603656Z",
+  "Updated": "2025-12-09T04:34:30.8637938Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

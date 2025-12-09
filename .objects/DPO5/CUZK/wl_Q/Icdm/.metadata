@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Vehicle Registration Number 1",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "IcdmRGlxPkWYtyUrz8JExA",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/IcdmRGlxPkWYtyUrz8JExA",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-05T10:29:48.8330481Z",
+  "Updated": "2025-12-05T10:35:00.318968Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

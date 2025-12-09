@@ -1,0 +1,13 @@
+﻿{
+  "Name": "No.of Cylinder *",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "6TY5b7vro0qUpEZeGEEsmg",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/6TY5b7vro0qUpEZeGEEsmg",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-05T06:16:47.8972415Z",
+  "Updated": "2025-12-05T06:16:47.8972415Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

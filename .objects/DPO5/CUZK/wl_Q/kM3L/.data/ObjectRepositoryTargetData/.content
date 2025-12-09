@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0BTVVbe-2ESbzhQAieewhQ" Reference="WCf4262-9EGvP7sTIveqRQ/kM3LrTBE40qSpJY9wc3JHA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" DesignTimeRectangle="610, 462, 720, 42" ElementType="Text" ElementVisibilityArgument="[UiPath.UIAutomationNext.Enums.NElementVisibility.Visible]" FullSelectorArgument="&lt;webctrl aaname='You are eligible only for Third Party Cover based on your selection. Would You prefer Comprehensive cover? * ' parentid='preferredCompCoverModal' tag='LABEL' /&gt;" Guid="4ccd192e-446b-4df9-bc9b-54aa495dd784" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <imageRef attrName="InformativeScreenshot" originalValue="bec83901126cf3818d752b92a8fd62cf.png" xmlns="">0J51OYap6V0OqevGhYmIwLQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

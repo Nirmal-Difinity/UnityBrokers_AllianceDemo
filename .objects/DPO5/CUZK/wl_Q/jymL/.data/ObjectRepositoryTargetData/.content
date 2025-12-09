@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jSAOnN55IE-3MRyaYU6a4g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="6107c3d6-8bef-4433-80e4-02acd9045bb4" CvElementArea="421, 562, 318, 30" CvType="InputBox" DesignTimeRectangle="424, 570, 314, 15" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='mat-input-12' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid' placeholder='Vehicle Body Type *' aaname='Vehicle Body Type *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:placeholder='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="1a49bfc4-6e34-4618-8a23-c88b6c84f434" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6107c3d6-8bef-4433-80e4-02acd9045bb4" CvElementArea="421, 562, 318, 30" CvType="InputBox" DesignTimeRectangle="424, 571, 314, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='mat-form-field-label-57' tag='LABEL' type='' class='mat-form-field-label ng-tns-c3-44 mat-empty mat-form-field-empty ng-star-inserted' aaname='Vehicle Body Type *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Vehicle Body Type *' /&gt;" Guid="c3e6026c-0ff1-4867-8fa7-fd80bf3c2eee" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="81adefaf8e644ba4203524e78242c181.png" xmlns="">06O0LBNzL10CIr8kWbD0rdQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="N-MzDhGjr0Kqef3d1Xvbsg" Reference="WCf4262-9EGvP7sTIveqRQ/ZhyaBJBkDke2SLosKca4VQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="1f447f74-083e-4881-9afa-2c9757fe6567" CvElementArea="421, 697, 321, 28" CvType="InputBox" DesignTimeRectangle="424, 703, 314, 15" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='mat-input-10' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid' aaname=' Insured Declared Value (in  ) * ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="b9843815-e610-483a-acbe-15ca136393cb" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="1f447f74-083e-4881-9afa-2c9757fe6567" CvElementArea="421, 697, 321, 28" CvType="InputBox" DesignTimeRectangle="424, 704, 314, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='mat-form-field-label-45' tag='LABEL' type='' class='mat-form-field-label ng-tns-c3-34 mat-empty mat-form-field-empty ng-star-inserted' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Insured Declared Value (in&amp;#xA;) *' /&gt;" Guid="eb9fce98-c84e-494b-ab37-53d4ae934595" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="7bc843992376836f9b5e7c72f22eb535.png" xmlns="">0k-n2cMEpREKS4RPxPvM-hg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

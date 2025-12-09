@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Manufacturing Year *",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "i7fa1aypg0aHzzMzAmAivQ",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/i7fa1aypg0aHzzMzAmAivQ",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-05T06:16:47.814125Z",
+  "Updated": "2025-12-05T06:16:47.814125Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

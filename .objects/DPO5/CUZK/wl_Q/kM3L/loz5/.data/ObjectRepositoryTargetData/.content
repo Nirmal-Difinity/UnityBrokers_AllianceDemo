@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rBMyQsqneU6HBKVV5JPqYg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="66ea6b4e-ff95-4cad-a723-6cffcf44623a" CvElementArea="974, 508, 30, 29" CvTextArea="1006, 516, 16, 13" CvTextArgument="No" CvType="RadioButton" DesignTimeRectangle="976, 510, 46, 23" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='No' parentid='preferredCompCoverModal' tag='LABEL' /&gt;" Guid="cc6cac8f-6e89-4a81-8a2e-2d4494e11796" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="610, 462, 720, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='You are eligible only for Third Party Cover based on your selection. Would You prefer Comprehensive cover? * ' parentid='preferredCompCoverModal' tag='LABEL' type='' class='marginBottomZero fontWeightnormal fontRegular normalFont' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='You are eligible only for Third Party Cover based on your selection. Would You prefer Comprehensive cover? *' /&gt;" Guid="60006c6a-d95c-4f4c-b1fd-4765482e65d4" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fc4f8a7ac30d7f2e099aa179cfe4728e.png" xmlns="">0WT8_7rhNCUq5PaQQ6DVgKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Vehicle Make *",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ALRWHX7NTUCr4D4k-WOyRg",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/ALRWHX7NTUCr4D4k-WOyRg",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-05T06:16:47.7677677Z",
+  "Updated": "2025-12-05T06:16:47.7677677Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Klde8wNt5UyOEkl0p7ylHA" Reference="WCf4262-9EGvP7sTIveqRQ/IcdmRGlxPkWYtyUrz8JExA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="0c43a543-de19-4cf2-9342-ea9ac84d9b1f" CvElementArea="526, 992, 83, 24" CvType="InputBox" DesignTimeRectangle="616, 911, 52, 16" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='mat-input-16' tag='INPUT' /&gt;" Guid="5c95accd-7db4-4c84-8f4b-855a703ee069" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0c43a543-de19-4cf2-9342-ea9ac84d9b1f" CvTextArea="423, 970, 273, 16" CvTextArgument="Vehicle Registration Number (DXB-J-11111)" CvType="Text" DesignTimeRectangle="547, 864, 207, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='regis_Title' tag='DIV' type='' aaname='Vehicle Registration Number (DXB-J-11111)' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Vehicle Registration Number (DXB-J-11111)' /&gt;" Guid="24d07627-ae76-4206-808f-d4135a646591" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="389e3150780a892b5cd552f1c9ecdf16.png" xmlns="">0GPMcGbE2W0m5ZqIUdQOLdA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

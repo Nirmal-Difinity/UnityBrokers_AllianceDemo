@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Vehicle Body Type *",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "jymLLyrbyk-e8SpSn3U2kg",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/jymLLyrbyk-e8SpSn3U2kg",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-05T06:31:28.2765092Z",
+  "Updated": "2025-12-05T06:31:28.2765092Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

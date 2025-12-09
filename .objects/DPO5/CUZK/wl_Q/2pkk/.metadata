@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Type of Policy *",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "2pkkYff_M0eq3-WpYWtTfQ",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/2pkkYff_M0eq3-WpYWtTfQ",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-05T06:25:38.3462479Z",
+  "Updated": "2025-12-05T06:25:38.3462479Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

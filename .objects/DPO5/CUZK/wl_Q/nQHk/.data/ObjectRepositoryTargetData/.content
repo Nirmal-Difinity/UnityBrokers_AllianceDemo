@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="077T-B9cMUuxfRF3oQyf8w" Reference="WCf4262-9EGvP7sTIveqRQ/nQHkG72bn0arru8lKYKmAg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="1f447f74-083e-4881-9afa-2c9757fe6567" CvElementArea="765, 697, 313, 28" CvType="InputBox" DesignTimeRectangle="768, 748, 313, 15" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='mat-input-11' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid' aaname=' Current value including accessories (in  ) * ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="9da1d007-4d0a-453f-b874-d1192330fe7c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1f447f74-083e-4881-9afa-2c9757fe6567" CvElementArea="765, 697, 313, 28" CvType="InputBox" DesignTimeRectangle="767, 742, 312, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='mat-form-field-label-47' tag='LABEL' type='' class='mat-form-field-label ng-tns-c3-35 mat-empty mat-form-field-empty ng-star-inserted' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Current value including accessories (in&amp;#xA;) *' /&gt;" Guid="01965e98-3179-4d6f-b562-44bcd2bb841b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0f3c4d9b83e14fc945fa2637d5168735.png" xmlns="">0-K1HS0K5jU2054Inq_vyZQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

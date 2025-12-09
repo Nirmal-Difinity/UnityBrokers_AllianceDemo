@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OPaYV7HKqEW_-FulnjQg_A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="1f447f74-083e-4881-9afa-2c9757fe6567" CvElementArea="421, 834, 318, 32" CvType="InputBox" DesignTimeRectangle="424, 844, 296, 17" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='mat-form-field-label-51' tag='LABEL' type='' class='mat-form-field-label ng-tns-c3-38 mat-empty mat-form-field-empty ng-star-inserted' aaname='Registration Place *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Registration Place *' /&gt;" Guid="2f1f3c6b-9aaa-49aa-813f-5ea2eecc9e43" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1f447f74-083e-4881-9afa-2c9757fe6567" CvElementArea="421, 834, 318, 32" CvType="InputBox" DesignTimeRectangle="424, 843, 296, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-13' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c4-39 ng-star-inserted' aaname='Registration Place *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Registration Place *' /&gt;" Guid="2e7bad46-6a7a-4c10-8e25-399d4a512136" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="75100400abffec88ae1b870fa9d3fb42.png" xmlns="">0Vt-fYWR1SEKNRtKZxMQKeg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

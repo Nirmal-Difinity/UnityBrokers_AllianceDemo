@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Repairing Condition *",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "aT2IPpOOM0K93kb1NYxCtw",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/aT2IPpOOM0K93kb1NYxCtw",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-05T06:16:48.0258515Z",
+  "Updated": "2025-12-05T07:09:32.0536446Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

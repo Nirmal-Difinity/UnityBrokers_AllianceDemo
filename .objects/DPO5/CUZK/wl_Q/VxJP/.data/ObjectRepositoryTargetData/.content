@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gpuYhRYDmk-DPNNqbKbBLQ" Reference="WCf4262-9EGvP7sTIveqRQ/VxJPq3p26Eu9LcIDh3hU2w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="dbc6183b-3915-49f9-b025-f1e97ea10980" CvElementArea="425, 360, 313, 29" CvType="InputBox" DesignTimeRectangle="424, 368, 296, 16" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='mat-form-field-label-33' tag='LABEL' type='' class='mat-form-field-label ng-tns-c5-25 mat-empty mat-form-field-empty ng-star-inserted' aaname='Plate Category *' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Plate Category *' /&gt;" Guid="8f9d2be3-cae2-45e2-8d12-c8bf475ab822" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="dbc6183b-3915-49f9-b025-f1e97ea10980" CvElementArea="425, 360, 313, 29" CvType="InputBox" DesignTimeRectangle="424, 366, 296, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-9' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-26 ng-star-inserted' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Plate Category *' check:innerText='Plate Category *' /&gt;" Guid="d05acb6e-b844-4262-bbba-311d4595acb0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="57602414431e2b87226b39bbad5c8e08.png" xmlns="">0CRtabrNBCUmjqEpuXxojbA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

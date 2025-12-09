@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FyvwxbGjUEiMaO_fF4xm0w" Reference="WCf4262-9EGvP7sTIveqRQ/qnco2efTQ0mUte33osSROw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="c365b76d-97fa-4f86-90d4-381935c58fab" CvTextArea="422, 298, 151, 20" CvTextArgument="Vehicle Details" CvType="Text" DesignTimeRectangle="424, 293, 149, 31" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Vehicle Details' tag='LABEL' /&gt;" Guid="77f49131-c7b8-46c6-b439-9d0a4f0969c8" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c365b76d-97fa-4f86-90d4-381935c58fab" CvTextArea="374, 203, 233, 26" CvTextArgument="Motor Insurance" CvType="Text" DesignTimeRectangle="374, 175, 232, 83" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Motor Insurance' tag='LABEL' type='' class='extralargeFont subTitle fontWeightnormal fontRegular' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Motor Insurance' /&gt;" Guid="b5fe847b-b196-4578-b96f-909e27aeec82" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bbb06fa1b7b8eada2db435d08e0add10.png" xmlns="">08EkhMdvbAEuh_9IWgnKTsg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chassis No *",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "d0dUl6Dh8U6N4lWICmULow",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/d0dUl6Dh8U6N4lWICmULow",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-05T06:18:48.8392361Z",
+  "Updated": "2025-12-05T06:18:48.8392361Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

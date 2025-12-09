@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2u0A5tIamUKKtCGtd5xlew" Reference="WCf4262-9EGvP7sTIveqRQ/jVl7JwFLt0CFJllxd6TSug" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" DesignTimeRectangle="768, 754, 313, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;&lt;webctrl tag='DIV' innertext='Claim Experience Previous Policy Year*' idx='4' /&gt;" Guid="c0dda214-3bf9-4ffd-a105-d847a1d51aa8" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="2409d2ddfb2f290cf719b5188e0502b8.png" xmlns="">0WUHlfDLb2USamuW8s3dVUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

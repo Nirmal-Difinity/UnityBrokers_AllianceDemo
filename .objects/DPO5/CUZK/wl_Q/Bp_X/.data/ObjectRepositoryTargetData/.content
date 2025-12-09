@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CEVhzf1BkEKdUI3Rt0cE7A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="1f447f74-083e-4881-9afa-2c9757fe6567" CvElementArea="925, 895, 158, 45" CvTextArea="936, 910, 135, 14" CvTextArgument="Calculate Premium" CvType="Button" DesignTimeRectangle="927, 897, 154, 42" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Calculate Premium ' tag='BUTTON' /&gt;" Guid="de06652c-23f6-4e8f-9339-2adc27720b71" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="d6ad6bc1b84f0b3afb1bcb206325a0d8.png" xmlns="">05lQ9yp8xpkaVAB-YzFWsiw</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

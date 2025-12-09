@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Registration Place *",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "jRPPfLbZo0Si-FoER8tzWA",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/jRPPfLbZo0Si-FoER8tzWA",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-05T06:16:47.9935134Z",
+  "Updated": "2025-12-05T06:16:47.9935134Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

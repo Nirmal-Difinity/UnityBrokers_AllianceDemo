@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rIv74zpHV0yai3EpLIokNw" Reference="WCf4262-9EGvP7sTIveqRQ/laH4ZnzXrUyhU_XVer1d1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="11750d8a-6f93-41db-ae8c-0f46835c1761" CvElementArea="311, 765, 213, 29" CvTextArea="312, 754, 122, 14" CvTextArgument="Repairing Condition *" CvType="InputBox" DesignTimeRectangle="313, 754, 210, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='DIV' class='cdk-overlay-container' /&gt;&lt;webctrl tag='DIV' class='cdk-overlay-pane' /&gt;&lt;webctrl tag='DIV' class='mat-select-panel' /&gt;&lt;webctrl tag='MAT-OPTION' /&gt;&lt;webctrl tag='SPAN' class='mat-option-text' innertext='Not Applicable' /&gt;" Guid="2950e633-522e-447b-8f24-d4ed5d1110f2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="a28b0f0f5b95548990adccc3a8c13e33.png" xmlns="">0s-y--853V0KSXdF_8kSZmA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

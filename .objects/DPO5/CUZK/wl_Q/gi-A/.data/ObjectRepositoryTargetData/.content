@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RfMfOBIgOUSKKKVYsKMrkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="0c43a543-de19-4cf2-9342-ea9ac84d9b1f" CvTextArea="767, 907, 221, 18" CvTextArgument="Registration Date* (dd/mm/yyyy)" CvType="Text" DesignTimeRectangle="768, 906, 287, 16" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='mat-input-13' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-valid' placeholder='Registration Date* (dd/mm/yyyy)' aaname='Registration Date* (dd/mm/yyyy)' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:placeholder='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="e50aed88-1b67-4ea9-ac01-94958fc989d7" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0c43a543-de19-4cf2-9342-ea9ac84d9b1f" CvTextArea="767, 907, 221, 18" CvTextArgument="Registration Date* (dd/mm/yyyy)" CvType="Text" DesignTimeRectangle="768, 908, 287, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='mat-form-field-label-65' tag='LABEL' type='' class='mat-form-field-label ng-tns-c5-51 mat-empty mat-form-field-empty ng-star-inserted' aaname='Registration Date* (dd/mm/yyyy)' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Registration Date* (dd/mm/yyyy)' /&gt;" Guid="e941c349-0669-441a-9f99-89e8d0f1f752" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="20bdeb823266f7d62d2323e04ce352a5.png" xmlns="">0xyVuLU-92UCgWx_tJOzM-Q</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

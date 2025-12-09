@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Vehicle Model Year*",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "JDl8jlWdGEuIuguO4zIJVw",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/JDl8jlWdGEuIuguO4zIJVw",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-05T06:16:47.8590378Z",
+  "Updated": "2025-12-05T06:16:47.8590378Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HEC3Yndb90CHbdhhMjTviA" Reference="WCf4262-9EGvP7sTIveqRQ/JDl8jlWdGEuIuguO4zIJVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="1f447f74-083e-4881-9afa-2c9757fe6567" CvElementArea="765, 560, 312, 33" CvType="InputBox" DesignTimeRectangle="768, 570, 287, 15" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='mat-input-8' tag='INPUT' type='' class='mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-untouched ng-pristine ng-invalid' placeholder='Vehicle Model Year*' aaname='Vehicle Model Year*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:placeholder='0.0' fuzzylevel:aaname='0.0' /&gt;" Guid="d54568e6-e920-4c8e-b517-40c887aa746f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="1f447f74-083e-4881-9afa-2c9757fe6567" CvElementArea="765, 560, 312, 33" CvType="InputBox" DesignTimeRectangle="768, 571, 287, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='mat-form-field-label-41' tag='LABEL' type='' class='mat-form-field-label ng-tns-c3-32 mat-empty mat-form-field-empty ng-star-inserted' aaname='Vehicle Model Year*' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Vehicle Model Year*' /&gt;" Guid="bc50c3b4-149d-4037-a6f1-5b9c983531ff" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="779c8d9613ba1bd7419e4986751a9142.png" xmlns="">0LQFzEWspREOFOK222a_JJg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

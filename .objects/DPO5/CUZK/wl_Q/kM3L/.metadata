@@ -1,0 +1,13 @@
+﻿{
+  "Name": "You are eligible only f…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "kM3LrTBE40qSpJY9wc3JHA",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/kM3LrTBE40qSpJY9wc3JHA",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-09T06:46:30.918909Z",
+  "Updated": "2025-12-09T06:46:30.918909Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

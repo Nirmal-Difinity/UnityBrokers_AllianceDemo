@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Vehicle Details",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "qnco2efTQ0mUte33osSROw",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/qnco2efTQ0mUte33osSROw",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-05T10:47:52.6376129Z",
+  "Updated": "2025-12-05T10:47:52.6376129Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

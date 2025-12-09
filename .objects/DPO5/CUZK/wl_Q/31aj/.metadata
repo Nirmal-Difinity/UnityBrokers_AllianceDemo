@@ -1,0 +1,13 @@
+﻿{
+  "Name": "GENERATE QUOTE",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "31ajO4WK9EaGxZNm_0wDRw",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/31ajO4WK9EaGxZNm_0wDRw",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-09T07:02:14.4780053Z",
+  "Updated": "2025-12-09T07:02:14.4780053Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

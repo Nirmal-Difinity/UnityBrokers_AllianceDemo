@@ -1,0 +1,16 @@
+﻿{
+  "Name": "no",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "loz5LZ0n2k-2rHf0e5Fjww",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/loz5LZ0n2k-2rHf0e5Fjww",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/kM3LrTBE40qSpJY9wc3JHA",
+  "Created": "2025-12-09T06:59:24.5929905Z",
+  "Updated": "2025-12-09T06:59:52.7476258Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

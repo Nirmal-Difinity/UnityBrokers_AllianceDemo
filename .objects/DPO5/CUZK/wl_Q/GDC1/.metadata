@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Road side assistance co…",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "GDC1PGLRLECK-2yv1XLkLA",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/GDC1PGLRLECK-2yv1XLkLA",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-09T07:02:14.4210426Z",
+  "Updated": "2025-12-09T07:02:14.4210426Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

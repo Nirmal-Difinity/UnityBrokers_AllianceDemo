@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Current value including…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "nQHkG72bn0arru8lKYKmAg",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/nQHkG72bn0arru8lKYKmAg",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/wl_QWvXQKUK5PZATCKQ4Bw",
+  "Created": "2025-12-05T06:16:47.9310002Z",
+  "Updated": "2025-12-05T06:16:47.9310002Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
