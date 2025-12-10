@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nQpWcb7_Ekeej7q8NPFJCg" Reference="WCf4262-9EGvP7sTIveqRQ/NvAmWf_gyE-Edvss2g5I1g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="74abbf1d-fe57-4053-82f4-11d982694798" CvElementArea="934, 867, 148, 46" CvTextArea="945, 882, 127, 16" CvTextArgument="GENERATE QUOTE" CvType="Button" DesignTimeRectangle="936, 869, 145, 42" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="[UiPath.UIAutomationNext.Enums.NElementVisibility.Visible]" FullSelectorArgument="&lt;webctrl aaname='GENERATE QUOTE' tag='BUTTON' /&gt;" Guid="99c45e41-f5fd-4375-8b47-f0f2d8603a74" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="91b8301ff6e2b89688093f2efcc0ad6f.png" xmlns="">0qM62JSMJBE27fFoUvn7ggg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

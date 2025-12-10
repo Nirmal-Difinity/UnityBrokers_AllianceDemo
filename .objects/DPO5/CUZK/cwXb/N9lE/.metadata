@@ -1,0 +1,13 @@
+﻿{
+  "Name": "RSA_Cover_Chargeble",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "N9lEF0Zgg0aokWloRyJsbg",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/N9lEF0Zgg0aokWloRyJsbg",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/cwXbExZp8EO1tdcd8Ibb_w",
+  "Created": "2025-12-10T05:41:07.8483832Z",
+  "Updated": "2025-12-10T05:41:07.8483832Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

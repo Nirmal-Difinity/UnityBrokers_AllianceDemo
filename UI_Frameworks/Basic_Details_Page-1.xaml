@@ -1,4 +1,11 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Generate_Quote" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Generate_Quote_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Generate_Quote" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:isactr="http://schemas.uipath.com/workflow/integration-service-activities/isactr" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="In_Transactionitem" Type="InArgument(ui:QueueItem)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>Generate_Quote_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -104,19 +111,19 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Generate_Quote" sap:VirtualizedContainerService.HintSize="1281,4486" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Generate_Quote" sap:VirtualizedContainerService.HintSize="1281,3555" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge: Alliance - Home" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="522,4253" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Edge: Alliance - Home" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="522,3484" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,4050" sap2010:WorkflowViewState.IdRef="Sequence_18">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="520,3281" sap2010:WorkflowViewState.IdRef="Sequence_18">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -138,19 +145,19 @@
                 <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" ContentHash="hZvnefAhik2vJtq_s0hZmw" DesignTimeRectangle="1224, 241, 190, 56" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname=' Motor Insurance' tag='A' /&gt;" Guid="2d395037-4238-43a9-a303-2b6fae0e8e67" InformativeScreenshot="110d2ed61f6fd7fcdebb592e17552adb.png" Reference="WCf4262-9EGvP7sTIveqRQ/Lzgk9-l_uUKWavDGwu3nNw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Motor_insurance" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,3602" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" ScopeGuid="c3750a32-eb46-4c31-ae0a-6ec40fe2c00b" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Motor_insurance" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,2833" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" ScopeGuid="c3750a32-eb46-4c31-ae0a-6ec40fe2c00b" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,3408" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,2639" sap2010:WorkflowViewState.IdRef="Sequence_17">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="Motor Insurance" sap:VirtualizedContainerService.HintSize="450,3348" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                    <Sequence DisplayName="Motor Insurance" sap:VirtualizedContainerService.HintSize="450,2579" sap2010:WorkflowViewState.IdRef="Sequence_16">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:String" Name="Proposername_arabic" />
                       </Sequence.Variables>
@@ -160,19 +167,223 @@
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="CommentOut_6">
-                        <ui:CommentOut.Body>
-                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Business Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c3750a32-eb46-4c31-ae0a-6ec40fe2c00b" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" ContentHash="RvpqkINWqUeRtVv7nlpSeg" DesignTimeRectangle="424, 331, 296, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Business Type' /&gt;" FuzzyAccuracy="1" Guid="f82c3e5c-3ded-4f8d-924c-8a7553108974" InformativeScreenshot="d5fea718610f1cb7921d05396e22f40a.png" Reference="WCf4262-9EGvP7sTIveqRQ/i1jOyG-xiE25kffftYrMbg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <Switch x:TypeArguments="x:String" DisplayName="Switch - Business Type" Expression="[In_Transactionitem.SpecificContent(&quot;BusinessType&quot;).ToString]" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+                        <Switch.Default>
+                          <Sequence DisplayName="Default" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_24">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Motor Insurance(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_22" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
-                              <uix:NClick.Target>
-                                <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" ContentHash="hAVyWy8aC0acnWt6CLP2yg" DesignTimeRectangle="12, 175, 1912, 153" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='DIV' innertext='Motor Insurance' /&gt;" Guid="24ea786c-69e0-441c-8280-c6f635581e4c" InformativeScreenshot="085dd92f0fd443851307d1dfc6c3d2e6.png" Reference="WCf4262-9EGvP7sTIveqRQ/tk2de3jLZUeA0-nJhvtJJQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
-                              </uix:NClick.Target>
-                            </uix:NClick>
+                          </Sequence>
+                        </Switch.Default>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Sequence x:Key="New" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NSelectItem AlterIfDisabled="True" DisplayName="Select Item 'Business Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_21" Item="New" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                            <uix:NSelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="5">
+                                <x:String>New</x:String>
+                                <x:String>Renewal</x:String>
+                                <x:String>Alliance Renewal</x:String>
+                                <x:String>Hayaza/Roll over</x:String>
+                                <x:String>Brand New</x:String>
+                              </scg:List>
+                            </uix:NSelectItem.Items>
+                            <uix:NSelectItem.Target>
+                              <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" ContentHash="RvpqkINWqUeRtVv7nlpSeg" DesignTimeRectangle="424, 331, 296, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Business Type' /&gt;" FuzzyAccuracy="1" Guid="f82c3e5c-3ded-4f8d-924c-8a7553108974" InformativeScreenshot="d5fea718610f1cb7921d05396e22f40a.png" Reference="WCf4262-9EGvP7sTIveqRQ/i1jOyG-xiE25kffftYrMbg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]" />
+                            </uix:NSelectItem.Target>
+                          </uix:NSelectItem>
+                        </Sequence>
+                        <Sequence x:Key="Renewal" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NSelectItem AlterIfDisabled="True" DisplayName="Select Item 'Business Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_25" Item="Renewal" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                            <uix:NSelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="5">
+                                <x:String>New</x:String>
+                                <x:String>Renewal</x:String>
+                                <x:String>Alliance Renewal</x:String>
+                                <x:String>Hayaza/Roll over</x:String>
+                                <x:String>Brand New</x:String>
+                              </scg:List>
+                            </uix:NSelectItem.Items>
+                            <uix:NSelectItem.Target>
+                              <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" ContentHash="RvpqkINWqUeRtVv7nlpSeg" DesignTimeRectangle="424, 331, 296, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Business Type' /&gt;" FuzzyAccuracy="1" Guid="f82c3e5c-3ded-4f8d-924c-8a7553108974" InformativeScreenshot="d5fea718610f1cb7921d05396e22f40a.png" Reference="WCf4262-9EGvP7sTIveqRQ/i1jOyG-xiE25kffftYrMbg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]" />
+                            </uix:NSelectItem.Target>
+                          </uix:NSelectItem>
+                        </Sequence>
+                        <Sequence x:Key="Alliance Renewal" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NSelectItem AlterIfDisabled="True" DisplayName="Select Item 'Business Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_26" Item="Alliance Renewal" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                            <uix:NSelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="5">
+                                <x:String>New</x:String>
+                                <x:String>Renewal</x:String>
+                                <x:String>Alliance Renewal</x:String>
+                                <x:String>Hayaza/Roll over</x:String>
+                                <x:String>Brand New</x:String>
+                              </scg:List>
+                            </uix:NSelectItem.Items>
+                            <uix:NSelectItem.Target>
+                              <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" ContentHash="RvpqkINWqUeRtVv7nlpSeg" DesignTimeRectangle="424, 331, 296, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Business Type' /&gt;" FuzzyAccuracy="1" Guid="f82c3e5c-3ded-4f8d-924c-8a7553108974" InformativeScreenshot="d5fea718610f1cb7921d05396e22f40a.png" Reference="WCf4262-9EGvP7sTIveqRQ/i1jOyG-xiE25kffftYrMbg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]" />
+                            </uix:NSelectItem.Target>
+                          </uix:NSelectItem>
+                        </Sequence>
+                        <Sequence x:Key="Hayaza/Roll over" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NSelectItem AlterIfDisabled="True" DisplayName="Select Item 'Business Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_27" Item="Hayaza/Roll over" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                            <uix:NSelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="5">
+                                <x:String>New</x:String>
+                                <x:String>Renewal</x:String>
+                                <x:String>Alliance Renewal</x:String>
+                                <x:String>Hayaza/Roll over</x:String>
+                                <x:String>Brand New</x:String>
+                              </scg:List>
+                            </uix:NSelectItem.Items>
+                            <uix:NSelectItem.Target>
+                              <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" ContentHash="RvpqkINWqUeRtVv7nlpSeg" DesignTimeRectangle="424, 331, 296, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Business Type' /&gt;" FuzzyAccuracy="1" Guid="f82c3e5c-3ded-4f8d-924c-8a7553108974" InformativeScreenshot="d5fea718610f1cb7921d05396e22f40a.png" Reference="WCf4262-9EGvP7sTIveqRQ/i1jOyG-xiE25kffftYrMbg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]" />
+                            </uix:NSelectItem.Target>
+                          </uix:NSelectItem>
+                        </Sequence>
+                        <Sequence x:Key="Brand New" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NSelectItem AlterIfDisabled="True" DisplayName="Select Item 'Business Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_28" Item="Brand New" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                            <uix:NSelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="5">
+                                <x:String>New</x:String>
+                                <x:String>Renewal</x:String>
+                                <x:String>Alliance Renewal</x:String>
+                                <x:String>Hayaza/Roll over</x:String>
+                                <x:String>Brand New</x:String>
+                              </scg:List>
+                            </uix:NSelectItem.Items>
+                            <uix:NSelectItem.Target>
+                              <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" ContentHash="RvpqkINWqUeRtVv7nlpSeg" DesignTimeRectangle="424, 331, 296, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Business Type' /&gt;" FuzzyAccuracy="1" Guid="f82c3e5c-3ded-4f8d-924c-8a7553108974" InformativeScreenshot="d5fea718610f1cb7921d05396e22f40a.png" Reference="WCf4262-9EGvP7sTIveqRQ/i1jOyG-xiE25kffftYrMbg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]" />
+                            </uix:NSelectItem.Target>
+                          </uix:NSelectItem>
+                        </Sequence>
+                      </Switch>
+                      <Switch x:TypeArguments="x:String" DisplayName="Switch - Client Type" Expression="[In_Transactionitem.SpecificContent(&quot;ClientType&quot;).ToString]" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Switch`1_2">
+                        <Switch.Default>
+                          <Sequence DisplayName="Default" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </Switch.Default>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Sequence x:Key="Individual" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NSelectItem DisplayName="Select Item 'Client Type *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_29" Item="Individual" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                            <uix:NSelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="2">
+                                <x:String>Individual</x:String>
+                                <x:String>Organization</x:String>
+                              </scg:List>
+                            </uix:NSelectItem.Items>
+                            <uix:NSelectItem.Target>
+                              <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" ContentHash="ETltJZ0ljkKnmFLLmuwzUg" CvElementArea="421, 481, 318, 32" CvType="InputBox" DesignTimeRectangle="424, 427, 314, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-form-field-infix' idx='2' tag='DIV' /&gt;" Guid="aad09698-3ad5-468c-9533-730dea707403" InformativeScreenshot="63df4ae375c4095c67c4bc0782c4bce8.png" Reference="WCf4262-9EGvP7sTIveqRQ/2V1XIMuvvEeNw8uYBTG3Hw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="421, 481, 318, 32" CvType="InputBox" DesignTimeRectangle="420, 437, 317, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-118' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-321 ng-star-inserted' aaname='Client Type *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Client Type *' /&gt;" Guid="ddd8499a-66b0-4f33-9bc5-3e9e7a34744c" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NSelectItem.Target>
+                          </uix:NSelectItem>
+                        </Sequence>
+                        <Sequence x:Key="Organization" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NSelectItem DisplayName="Select Item 'Client Type *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_30" Item="Organization" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                            <uix:NSelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="2">
+                                <x:String>Individual</x:String>
+                                <x:String>Organization</x:String>
+                              </scg:List>
+                            </uix:NSelectItem.Items>
+                            <uix:NSelectItem.Target>
+                              <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" ContentHash="ETltJZ0ljkKnmFLLmuwzUg" CvElementArea="421, 481, 318, 32" CvType="InputBox" DesignTimeRectangle="424, 427, 314, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-form-field-infix' idx='2' tag='DIV' /&gt;" Guid="aad09698-3ad5-468c-9533-730dea707403" InformativeScreenshot="63df4ae375c4095c67c4bc0782c4bce8.png" Reference="WCf4262-9EGvP7sTIveqRQ/2V1XIMuvvEeNw8uYBTG3Hw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="421, 481, 318, 32" CvType="InputBox" DesignTimeRectangle="420, 437, 317, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-118' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-321 ng-star-inserted' aaname='Client Type *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Client Type *' /&gt;" Guid="ddd8499a-66b0-4f33-9bc5-3e9e7a34744c" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NSelectItem.Target>
+                          </uix:NSelectItem>
+                        </Sequence>
+                      </Switch>
+                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+                        <ui:CommentOut.Body>
+                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NSelectItem DisplayName="Select Item 'Client Type *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_22" Item="In_Transactionitem.SpecificContent(&quot;ClientType&quot;).ToString" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                              <uix:NSelectItem.Items>
+                                <scg:List x:TypeArguments="x:String" Capacity="2">
+                                  <x:String>Individual</x:String>
+                                  <x:String>Organization</x:String>
+                                </scg:List>
+                              </uix:NSelectItem.Items>
+                              <uix:NSelectItem.Target>
+                                <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" ContentHash="ETltJZ0ljkKnmFLLmuwzUg" CvElementArea="421, 481, 318, 32" CvType="InputBox" DesignTimeRectangle="424, 427, 314, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-form-field-infix' idx='2' tag='DIV' /&gt;" Guid="aad09698-3ad5-468c-9533-730dea707403" InformativeScreenshot="63df4ae375c4095c67c4bc0782c4bce8.png" Reference="WCf4262-9EGvP7sTIveqRQ/2V1XIMuvvEeNw8uYBTG3Hw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="421, 481, 318, 32" CvType="InputBox" DesignTimeRectangle="420, 437, 317, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-118' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-321 ng-star-inserted' aaname='Client Type *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Client Type *' /&gt;" Guid="ddd8499a-66b0-4f33-9bc5-3e9e7a34744c" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NSelectItem.Target>
+                            </uix:NSelectItem>
                           </Sequence>
                         </ui:CommentOut.Body>
                         <sap:WorkflowViewStateService.ViewState>
@@ -182,62 +393,165 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </ui:CommentOut>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Business Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c3750a32-eb46-4c31-ae0a-6ec40fe2c00b" Version="V5">
-                        <uix:NClick.Target>
-                          <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" ContentHash="RvpqkINWqUeRtVv7nlpSeg" DesignTimeRectangle="424, 331, 296, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Business Type' /&gt;" FuzzyAccuracy="1" Guid="f82c3e5c-3ded-4f8d-924c-8a7553108974" InformativeScreenshot="d5fea718610f1cb7921d05396e22f40a.png" Reference="WCf4262-9EGvP7sTIveqRQ/i1jOyG-xiE25kffftYrMbg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
-                        </uix:NClick.Target>
-                      </uix:NClick>
-                      <uix:NSelectItem AlterIfDisabled="True" DisplayName="Select Item 'Business Type'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195" sap2010:WorkflowViewState.IdRef="NSelectItem_21" Item="New" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
-                        <uix:NSelectItem.Items>
-                          <scg:List x:TypeArguments="x:String" Capacity="5">
-                            <x:String>New</x:String>
-                            <x:String>Renewal</x:String>
-                            <x:String>Alliance Renewal</x:String>
-                            <x:String>Hayaza/Roll over</x:String>
-                            <x:String>Brand New</x:String>
-                          </scg:List>
-                        </uix:NSelectItem.Items>
-                        <uix:NSelectItem.Target>
-                          <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" ContentHash="RvpqkINWqUeRtVv7nlpSeg" DesignTimeRectangle="424, 331, 296, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='Business Type' /&gt;" FuzzyAccuracy="1" Guid="f82c3e5c-3ded-4f8d-924c-8a7553108974" InformativeScreenshot="d5fea718610f1cb7921d05396e22f40a.png" Reference="WCf4262-9EGvP7sTIveqRQ/i1jOyG-xiE25kffftYrMbg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]" />
-                        </uix:NSelectItem.Target>
-                      </uix:NSelectItem>
-                      <uix:NSelectItem DisplayName="Select Item 'Client Type *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195" sap2010:WorkflowViewState.IdRef="NSelectItem_22" Item="Individual" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
-                        <uix:NSelectItem.Items>
-                          <scg:List x:TypeArguments="x:String" Capacity="2">
-                            <x:String>Individual</x:String>
-                            <x:String>Organization</x:String>
-                          </scg:List>
-                        </uix:NSelectItem.Items>
-                        <uix:NSelectItem.Target>
-                          <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" ContentHash="ETltJZ0ljkKnmFLLmuwzUg" CvElementArea="421, 481, 318, 32" CvType="InputBox" DesignTimeRectangle="424, 427, 314, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-form-field-infix' idx='2' tag='DIV' /&gt;" Guid="aad09698-3ad5-468c-9533-730dea707403" InformativeScreenshot="63df4ae375c4095c67c4bc0782c4bce8.png" Reference="WCf4262-9EGvP7sTIveqRQ/2V1XIMuvvEeNw8uYBTG3Hw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                            <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                <uix:Target CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="421, 481, 318, 32" CvType="InputBox" DesignTimeRectangle="420, 437, 317, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-118' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-321 ng-star-inserted' aaname='Client Type *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Client Type *' /&gt;" Guid="ddd8499a-66b0-4f33-9bc5-3e9e7a34744c" SearchSteps="FuzzySelector, CV" />
+                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="CommentOut_8">
+                        <ui:CommentOut.Body>
+                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NSelectItem DisplayName="Select Item 'Prefix *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_23" Item="In_Transactionitem.SpecificContent(&quot;Prefix&quot;).ToString" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                              <uix:NSelectItem.Items>
+                                <scg:List x:TypeArguments="x:String" Capacity="4">
+                                  <x:String>Dr.</x:String>
+                                  <x:String>Mr.</x:String>
+                                  <x:String>Ms.</x:String>
+                                  <x:String>Mrs.</x:String>
+                                </scg:List>
+                              </uix:NSelectItem.Items>
+                              <uix:NSelectItem.Target>
+                                <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" ContentHash="gwKAsa8EGE2MWWErFxgHvg" CvElementArea="766, 483, 107, 29" CvType="InputBox" DesignTimeRectangle="768, 427, 104, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-form-field-infix' css-selector='body&amp;gt;app-root&amp;gt;app-motor-get-quote&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;mat-form-field&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="50e13e4d-a1ba-4aa5-a183-387e976e1725" InformativeScreenshot="d14759de1b78b763d3e8aca954c87df2.png" Reference="WCf4262-9EGvP7sTIveqRQ/y2C1Yxz85EqOj8_7de-JTg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="766, 483, 107, 29" CvType="InputBox" DesignTimeRectangle="766, 439, 107, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-119' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-328 ng-star-inserted' aaname='Prefix *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Prefix *' /&gt;" Guid="b1b936b4-5534-4e8d-a8d1-d3ec6ebf1e78" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                </uix:TargetAnchorable>
+                              </uix:NSelectItem.Target>
+                            </uix:NSelectItem>
+                          </Sequence>
+                        </ui:CommentOut.Body>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </ui:CommentOut>
+                      <Switch x:TypeArguments="x:String" DisplayName="Switch - Prefix" Expression="[In_Transactionitem.SpecificContent(&quot;Prefix&quot;).ToString]" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Switch`1_3">
+                        <Switch.Default>
+                          <Sequence DisplayName="Default" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </Switch.Default>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Sequence x:Key="Mr." DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NSelectItem DisplayName="Select Item 'Prefix *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_31" Item="Mr." ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                            <uix:NSelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="4">
+                                <x:String>Dr.</x:String>
+                                <x:String>Mr.</x:String>
+                                <x:String>Ms.</x:String>
+                                <x:String>Mrs.</x:String>
                               </scg:List>
-                            </uix:TargetAnchorable.Anchors>
-                          </uix:TargetAnchorable>
-                        </uix:NSelectItem.Target>
-                      </uix:NSelectItem>
-                      <uix:NSelectItem DisplayName="Select Item 'Prefix *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195" sap2010:WorkflowViewState.IdRef="NSelectItem_23" Item="Mr." ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
-                        <uix:NSelectItem.Items>
-                          <scg:List x:TypeArguments="x:String" Capacity="4">
-                            <x:String>Dr.</x:String>
-                            <x:String>Mr.</x:String>
-                            <x:String>Ms.</x:String>
-                            <x:String>Mrs.</x:String>
-                          </scg:List>
-                        </uix:NSelectItem.Items>
-                        <uix:NSelectItem.Target>
-                          <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" ContentHash="gwKAsa8EGE2MWWErFxgHvg" CvElementArea="766, 483, 107, 29" CvType="InputBox" DesignTimeRectangle="768, 427, 104, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-form-field-infix' css-selector='body&amp;gt;app-root&amp;gt;app-motor-get-quote&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;mat-form-field&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="50e13e4d-a1ba-4aa5-a183-387e976e1725" InformativeScreenshot="d14759de1b78b763d3e8aca954c87df2.png" Reference="WCf4262-9EGvP7sTIveqRQ/y2C1Yxz85EqOj8_7de-JTg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
-                            <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                <uix:Target CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="766, 483, 107, 29" CvType="InputBox" DesignTimeRectangle="766, 439, 107, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-119' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-328 ng-star-inserted' aaname='Prefix *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Prefix *' /&gt;" Guid="b1b936b4-5534-4e8d-a8d1-d3ec6ebf1e78" SearchSteps="FuzzySelector, CV" />
+                            </uix:NSelectItem.Items>
+                            <uix:NSelectItem.Target>
+                              <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" ContentHash="gwKAsa8EGE2MWWErFxgHvg" CvElementArea="766, 483, 107, 29" CvType="InputBox" DesignTimeRectangle="768, 427, 104, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-form-field-infix' css-selector='body&amp;gt;app-root&amp;gt;app-motor-get-quote&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;mat-form-field&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="50e13e4d-a1ba-4aa5-a183-387e976e1725" InformativeScreenshot="d14759de1b78b763d3e8aca954c87df2.png" Reference="WCf4262-9EGvP7sTIveqRQ/y2C1Yxz85EqOj8_7de-JTg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="766, 483, 107, 29" CvType="InputBox" DesignTimeRectangle="766, 439, 107, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-119' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-328 ng-star-inserted' aaname='Prefix *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Prefix *' /&gt;" Guid="b1b936b4-5534-4e8d-a8d1-d3ec6ebf1e78" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NSelectItem.Target>
+                          </uix:NSelectItem>
+                        </Sequence>
+                        <Sequence x:Key="Dr." sap2010:Annotation.AnnotationText="" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,277" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NSelectItem DisplayName="Select Item 'Prefix *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_32" Item="Dr." ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                            <uix:NSelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="4">
+                                <x:String>Dr.</x:String>
+                                <x:String>Mr.</x:String>
+                                <x:String>Ms.</x:String>
+                                <x:String>Mrs.</x:String>
                               </scg:List>
-                            </uix:TargetAnchorable.Anchors>
-                          </uix:TargetAnchorable>
-                        </uix:NSelectItem.Target>
-                      </uix:NSelectItem>
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Proposer Name *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Text="Yadhu" Version="V5">
+                            </uix:NSelectItem.Items>
+                            <uix:NSelectItem.Target>
+                              <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" ContentHash="gwKAsa8EGE2MWWErFxgHvg" CvElementArea="766, 483, 107, 29" CvType="InputBox" DesignTimeRectangle="768, 427, 104, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-form-field-infix' css-selector='body&amp;gt;app-root&amp;gt;app-motor-get-quote&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;mat-form-field&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="50e13e4d-a1ba-4aa5-a183-387e976e1725" InformativeScreenshot="d14759de1b78b763d3e8aca954c87df2.png" Reference="WCf4262-9EGvP7sTIveqRQ/y2C1Yxz85EqOj8_7de-JTg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="766, 483, 107, 29" CvType="InputBox" DesignTimeRectangle="766, 439, 107, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-119' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-328 ng-star-inserted' aaname='Prefix *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Prefix *' /&gt;" Guid="b1b936b4-5534-4e8d-a8d1-d3ec6ebf1e78" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NSelectItem.Target>
+                          </uix:NSelectItem>
+                        </Sequence>
+                        <Sequence x:Key="Ms." DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NSelectItem DisplayName="Select Item 'Prefix *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_33" Item="Ms." ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                            <uix:NSelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="4">
+                                <x:String>Dr.</x:String>
+                                <x:String>Mr.</x:String>
+                                <x:String>Ms.</x:String>
+                                <x:String>Mrs.</x:String>
+                              </scg:List>
+                            </uix:NSelectItem.Items>
+                            <uix:NSelectItem.Target>
+                              <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" ContentHash="gwKAsa8EGE2MWWErFxgHvg" CvElementArea="766, 483, 107, 29" CvType="InputBox" DesignTimeRectangle="768, 427, 104, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-form-field-infix' css-selector='body&amp;gt;app-root&amp;gt;app-motor-get-quote&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;mat-form-field&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="50e13e4d-a1ba-4aa5-a183-387e976e1725" InformativeScreenshot="d14759de1b78b763d3e8aca954c87df2.png" Reference="WCf4262-9EGvP7sTIveqRQ/y2C1Yxz85EqOj8_7de-JTg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="766, 483, 107, 29" CvType="InputBox" DesignTimeRectangle="766, 439, 107, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-119' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-328 ng-star-inserted' aaname='Prefix *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Prefix *' /&gt;" Guid="b1b936b4-5534-4e8d-a8d1-d3ec6ebf1e78" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NSelectItem.Target>
+                          </uix:NSelectItem>
+                        </Sequence>
+                        <Sequence x:Key="{x:Null}" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NSelectItem DisplayName="Select Item 'Prefix *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_34" Item="Mrs." ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                            <uix:NSelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="4">
+                                <x:String>Dr.</x:String>
+                                <x:String>Mr.</x:String>
+                                <x:String>Ms.</x:String>
+                                <x:String>Mrs.</x:String>
+                              </scg:List>
+                            </uix:NSelectItem.Items>
+                            <uix:NSelectItem.Target>
+                              <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" ContentHash="gwKAsa8EGE2MWWErFxgHvg" CvElementArea="766, 483, 107, 29" CvType="InputBox" DesignTimeRectangle="768, 427, 104, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-form-field-infix' css-selector='body&amp;gt;app-root&amp;gt;app-motor-get-quote&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;mat-form-field&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" Guid="50e13e4d-a1ba-4aa5-a183-387e976e1725" InformativeScreenshot="d14759de1b78b763d3e8aca954c87df2.png" Reference="WCf4262-9EGvP7sTIveqRQ/y2C1Yxz85EqOj8_7de-JTg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" CvElementArea="766, 483, 107, 29" CvType="InputBox" DesignTimeRectangle="766, 439, 107, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-119' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-328 ng-star-inserted' aaname='Prefix *' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='Prefix *' /&gt;" Guid="b1b936b4-5534-4e8d-a8d1-d3ec6ebf1e78" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NSelectItem.Target>
+                          </uix:NSelectItem>
+                        </Sequence>
+                      </Switch>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Proposer Name *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Text="[In_Transactionitem.SpecificContent(&quot;ProposerName&quot;).ToString]" Version="V5">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="f0431701-a98b-4ff8-9621-f761a54af141" ContentHash="Q6aCtine8U2Dqo7szb-3LQ" CvElementArea="880, 484, 192, 26" CvType="InputBox" DesignTimeRectangle="881, 472, 192, 39" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl class='mat-form-field-infix' type='' aaname='' tag='DIV' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="ba961a91-468d-44c6-adcc-2bd183415743" InformativeScreenshot="4c3804723650b5b007e79a6aee6a5c22.png" IsResponsive="True" Reference="WCf4262-9EGvP7sTIveqRQ/SxT5qj9B_UOley9JodYMLA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -252,7 +566,7 @@
                         <isactr:ConnectorActivity.FieldObjects>
                           <isactr:FieldObject Name="inputText" Type="FieldArgument">
                             <isactr:FieldObject.Value>
-                              <InArgument x:TypeArguments="x:String">Yadhu</InArgument>
+                              <InArgument x:TypeArguments="x:String">[In_Transactionitem.SpecificContent("ProposerName").ToString]</InArgument>
                             </isactr:FieldObject.Value>
                           </isactr:FieldObject>
                           <isactr:FieldObject Name="language" Type="FieldArgument">
@@ -278,34 +592,86 @@
                           </uix:TargetAnchorable>
                         </uix:NTypeInto.Target>
                       </uix:NTypeInto>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'IsDriverSAP_YES'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
-                        <uix:NClick.Target>
-                          <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="b5318f38-bc30-4400-920c-a824a69198bc" ContentHash="ju4if_nui0OKToMNIFuvKA" CvElementArea="782, 519, 28, 27" CvTextArea="812, 525, 23, 13" CvTextArgument="Yes" CvType="RadioButton" DesignTimeRectangle="783, 519, 52, 23" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Yes' tag='LABEL' /&gt;" Guid="b87a2cfd-39dc-4f46-b986-eaf9b9765c67" InformativeScreenshot="1e41ca0962d9341ae130c2cf9a50acdf.png" Reference="WCf4262-9EGvP7sTIveqRQ/UyvwU6UQ6Eaqj-o6LKwzhg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6">
-                            <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                <uix:Target CVScreenId="b5318f38-bc30-4400-920c-a824a69198bc" CvTextArea="767, 503, 198, 15" CvTextArgument="Is the driver same as the proposer?" CvType="Text" DesignTimeRectangle="768, 501, 196, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Is the driver same as the proposer? ' tag='LABEL' type='' class='marginBottomZero fontWeightnormal fontRegular' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Is the driver same as the proposer?' /&gt;" Guid="c05c5d83-8689-4100-ac07-d5d173bac3ba" SearchSteps="FuzzySelector, CV" />
-                              </scg:List>
-                            </uix:TargetAnchorable.Anchors>
-                            <uix:TargetAnchorable.PointOffset>
-                              <uix:PointOffset />
-                            </uix:TargetAnchorable.PointOffset>
-                          </uix:TargetAnchorable>
-                        </uix:NClick.Target>
-                      </uix:NClick>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DYH_UAELiscense_YES'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
-                        <uix:NClick.Target>
-                          <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="b5318f38-bc30-4400-920c-a824a69198bc" ContentHash="lCzy0dsizEqRePwdjJRxvA" CvElementArea="782, 779, 28, 27" CvTextArea="812, 786, 23, 13" CvTextArgument="Yes" CvType="RadioButton" DesignTimeRectangle="783, 780, 52, 23" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Yes' idx='2' tag='LABEL' /&gt;" Guid="3a26ca60-bcb8-45f3-af03-5b22ddb82024" InformativeScreenshot="f2551e4063e9a762c9ba864756f28fb8.png" Reference="WCf4262-9EGvP7sTIveqRQ/r9KjsiD4u06giXzB0f-Jng" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6">
-                            <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                <uix:Target CVScreenId="b5318f38-bc30-4400-920c-a824a69198bc" CvTextArea="785, 758, 177, 13" CvTextArgument="Do you have a UAE license? *" CvType="Text" DesignTimeRectangle="786, 756, 175, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Do you have a UAE license? * ' tag='LABEL' type='' class='marginBottomZero fontWeightnormal fontRegular fontThirteen' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Do you have a UAE license? *' /&gt;" Guid="cee77e27-64d1-4a4b-a55e-4d68e5ee670e" SearchSteps="FuzzySelector, CV" />
-                              </scg:List>
-                            </uix:TargetAnchorable.Anchors>
-                            <uix:TargetAnchorable.PointOffset>
-                              <uix:PointOffset />
-                            </uix:TargetAnchorable.PointOffset>
-                          </uix:TargetAnchorable>
-                        </uix:NClick.Target>
-                      </uix:NClick>
+                      <If Condition="[In_Transactionitem.SpecificContent(&quot;IsDriverSameAsProposer&quot;).ToString = &quot;Yes&quot;]" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="If_1">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'IsDriverSameAsProposer'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="b5318f38-bc30-4400-920c-a824a69198bc" ContentHash="ju4if_nui0OKToMNIFuvKA" CvElementArea="782, 519, 28, 27" CvTextArea="812, 525, 23, 13" CvTextArgument="Yes" CvType="RadioButton" DesignTimeRectangle="783, 519, 52, 23" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Yes' tag='LABEL' /&gt;" Guid="b87a2cfd-39dc-4f46-b986-eaf9b9765c67" InformativeScreenshot="1e41ca0962d9341ae130c2cf9a50acdf.png" Reference="WCf4262-9EGvP7sTIveqRQ/UyvwU6UQ6Eaqj-o6LKwzhg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="b5318f38-bc30-4400-920c-a824a69198bc" CvTextArea="767, 503, 198, 15" CvTextArgument="Is the driver same as the proposer?" CvType="Text" DesignTimeRectangle="768, 501, 196, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Is the driver same as the proposer? ' tag='LABEL' type='' class='marginBottomZero fontWeightnormal fontRegular' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Is the driver same as the proposer?' /&gt;" Guid="c05c5d83-8689-4100-ac07-d5d173bac3ba" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                  <uix:TargetAnchorable.PointOffset>
+                                    <uix:PointOffset />
+                                  </uix:TargetAnchorable.PointOffset>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                      <If Condition="[In_Transactionitem.SpecificContent(&quot;HasUAELicense&quot;).ToString = &quot;Yes&quot;]" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="If_2">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DYH_UAELiscense_YES'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="b5318f38-bc30-4400-920c-a824a69198bc" ContentHash="lCzy0dsizEqRePwdjJRxvA" CvElementArea="782, 779, 28, 27" CvTextArea="812, 786, 23, 13" CvTextArgument="Yes" CvType="RadioButton" DesignTimeRectangle="783, 780, 52, 23" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Yes' idx='2' tag='LABEL' /&gt;" Guid="3a26ca60-bcb8-45f3-af03-5b22ddb82024" InformativeScreenshot="f2551e4063e9a762c9ba864756f28fb8.png" Reference="WCf4262-9EGvP7sTIveqRQ/r9KjsiD4u06giXzB0f-Jng" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6">
+                                  <uix:TargetAnchorable.Anchors>
+                                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                      <uix:Target CVScreenId="b5318f38-bc30-4400-920c-a824a69198bc" CvTextArea="785, 758, 177, 13" CvTextArgument="Do you have a UAE license? *" CvType="Text" DesignTimeRectangle="786, 756, 175, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Do you have a UAE license? * ' tag='LABEL' type='' class='marginBottomZero fontWeightnormal fontRegular fontThirteen' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Do you have a UAE license? *' /&gt;" Guid="cee77e27-64d1-4a4b-a55e-4d68e5ee670e" SearchSteps="FuzzySelector, CV" />
+                                    </scg:List>
+                                  </uix:TargetAnchorable.Anchors>
+                                  <uix:TargetAnchorable.PointOffset>
+                                    <uix:PointOffset />
+                                  </uix:TargetAnchorable.PointOffset>
+                                </uix:TargetAnchorable>
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </If.Else>
+                      </If>
                       <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DOB (dd/mm/yyyy) *'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" ContentHash="qodUbNO0tUGG4P96ES65hg" DesignTimeRectangle="421, 759, 285, 39" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;&lt;webctrl class='mat-form-field-infix' tag='DIV' innertext='DOB (dd/mm/yyyy) *' /&gt;" Guid="24d34a28-cfb7-4c95-9c99-b0d8f11b01a3" InformativeScreenshot="ee900d8bb044400c729f1684fcf689c7.png" Reference="WCf4262-9EGvP7sTIveqRQ/HsqPa99eS0-UsJ8uyRvMjw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
@@ -317,7 +683,7 @@
                           </uix:TargetAnchorable>
                         </uix:NClick.Target>
                       </uix:NClick>
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'DOB (dd/mm/yyyy) *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Text="01/01/1974" Version="V5">
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'DOB (dd/mm/yyyy) *'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Text="[In_Transactionitem.SpecificContent(&quot;DateOfBirth&quot;).ToString]" Version="V5">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" ContentHash="qodUbNO0tUGG4P96ES65hg" DesignTimeRectangle="421, 759, 285, 39" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;&lt;webctrl class='mat-form-field-infix' tag='DIV' innertext='DOB (dd/mm/yyyy) *' /&gt;" Guid="24d34a28-cfb7-4c95-9c99-b0d8f11b01a3" InformativeScreenshot="ee900d8bb044400c729f1684fcf689c7.png" Reference="WCf4262-9EGvP7sTIveqRQ/HsqPa99eS0-UsJ8uyRvMjw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -328,7 +694,7 @@
                           </uix:TargetAnchorable>
                         </uix:NTypeInto.Target>
                       </uix:NTypeInto>
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into '+971Mobile Number*'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Text="234567893" Version="V5">
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into '+971Mobile Number*'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_10" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Text="[In_Transactionitem.SpecificContent(&quot;MobileNumber&quot;).ToString]" Version="V5">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2667775a-5c2f-4a5f-8895-32e627b76602" ContentHash="yG-7SDYmpka_Sfs_fOa4ZQ" CvElementArea="420, 623, 320, 33" CvType="InputBox" DesignTimeRectangle="424, 571, 314, 39" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl class='mat-form-field-infix' type='' aaname='' tag='DIV' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c2a12c4a-aff3-4c90-8261-0ca1abd6ee8e" InformativeScreenshot="96c80a471fad45b8ef176ca4b5ad8d92.png" Reference="WCf4262-9EGvP7sTIveqRQ/Yf06HZWPfE20_tL39EHLnA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                             <uix:TargetAnchorable.Anchors>
@@ -339,31 +705,82 @@
                           </uix:TargetAnchorable>
                         </uix:NTypeInto.Target>
                       </uix:NTypeInto>
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email Address'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_11" InteractionMode="DebuggerApi" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Text="yadhu.k@gmail.com" Version="V5">
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Email Address'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_11" InteractionMode="DebuggerApi" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Text="[In_Transactionitem.SpecificContent(&quot;EmailAddress&quot;).ToString]" Version="V5">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="bd1d6275-00c9-4960-9ebb-b29ecfbbba8b" ContentHash="OmShOhUlVk-zyvEIa04x5w" CvElementArea="766, 440, 108, 28" CvType="InputBox" DesignTimeRectangle="424, 629, 314, 39" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;&lt;webctrl class='mat-form-field-infix' tag='DIV' idx='7' /&gt;" Guid="6ab8b97c-b658-4a52-8726-d70ec92c2875" InformativeScreenshot="dc37b62b50070b5f74d0921eb622ff65.png" Reference="WCf4262-9EGvP7sTIveqRQ/PV09PTSWZ0KIhQklMUinnA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
                         </uix:NTypeInto.Target>
                       </uix:NTypeInto>
-                      <uix:NSelectItem DisplayName="Select Item 'UAE Driving License Hel…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195" sap2010:WorkflowViewState.IdRef="NSelectItem_24" Item="One year and above" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
-                        <uix:NSelectItem.Items>
-                          <scg:List x:TypeArguments="x:String" Capacity="2">
-                            <x:String>Less than 1 year</x:String>
-                            <x:String>One year and above</x:String>
-                          </scg:List>
-                        </uix:NSelectItem.Items>
-                        <uix:NSelectItem.Target>
-                          <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="e3b23c04-3049-4bcf-9c1b-378be4112865" ContentHash="_41mB5Ph8EqYFhSUOvI8gw" CvElementArea="418, 903, 316, 29" CvType="InputBox" DesignTimeRectangle="421, 910, 293, 16" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='mat-form-field-label-717' tag='LABEL' type='' class='mat-form-field-label ng-tns-c5-556 mat-empty mat-form-field-empty ng-star-inserted' aaname='UAE Driving License Held For' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='UAE Driving License Held For' /&gt;" Guid="d77b90f4-3f16-4d1a-9977-e6dd89d5e1bb" InformativeScreenshot="04b3b485646e327a934ad3c08fb2e3e9.png" Reference="WCf4262-9EGvP7sTIveqRQ/izQ8KiXkLkCZiYuiCoBbqw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
-                            <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                <uix:Target CVScreenId="e3b23c04-3049-4bcf-9c1b-378be4112865" CvElementArea="418, 903, 316, 29" CvType="InputBox" DesignTimeRectangle="421, 908, 293, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-198' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-557 ng-star-inserted' aaname='UAE Driving License Held For' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='UAE Driving License Held For' /&gt;" Guid="5521f57b-6942-40df-928d-e185ba363516" SearchSteps="FuzzySelector, CV" />
+                      <Switch x:TypeArguments="x:String" DisplayName="Switch -  UAE Driving License Held For" Expression="[In_Transactionitem.SpecificContent(&quot;UAELicenseHeldFor&quot;).ToString]" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Switch`1_4">
+                        <Switch.Default>
+                          <Sequence DisplayName="Default" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_40">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </Sequence>
+                        </Switch.Default>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Sequence x:Key="Less than 1 year" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_39">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NSelectItem DisplayName="Select Item 'UAE Driving License Hel…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_24" Item="Less than 1 year" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                            <uix:NSelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="2">
+                                <x:String>Less than 1 year</x:String>
+                                <x:String>One year and above</x:String>
                               </scg:List>
-                            </uix:TargetAnchorable.Anchors>
-                            <uix:TargetAnchorable.PointOffset>
-                              <uix:PointOffset />
-                            </uix:TargetAnchorable.PointOffset>
-                          </uix:TargetAnchorable>
-                        </uix:NSelectItem.Target>
-                      </uix:NSelectItem>
+                            </uix:NSelectItem.Items>
+                            <uix:NSelectItem.Target>
+                              <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="e3b23c04-3049-4bcf-9c1b-378be4112865" ContentHash="_41mB5Ph8EqYFhSUOvI8gw" CvElementArea="418, 903, 316, 29" CvType="InputBox" DesignTimeRectangle="421, 910, 293, 16" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='mat-form-field-label-717' tag='LABEL' type='' class='mat-form-field-label ng-tns-c5-556 mat-empty mat-form-field-empty ng-star-inserted' aaname='UAE Driving License Held For' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='UAE Driving License Held For' /&gt;" Guid="d77b90f4-3f16-4d1a-9977-e6dd89d5e1bb" InformativeScreenshot="04b3b485646e327a934ad3c08fb2e3e9.png" Reference="WCf4262-9EGvP7sTIveqRQ/izQ8KiXkLkCZiYuiCoBbqw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="e3b23c04-3049-4bcf-9c1b-378be4112865" CvElementArea="418, 903, 316, 29" CvType="InputBox" DesignTimeRectangle="421, 908, 293, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-198' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-557 ng-star-inserted' aaname='UAE Driving License Held For' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='UAE Driving License Held For' /&gt;" Guid="5521f57b-6942-40df-928d-e185ba363516" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                                <uix:TargetAnchorable.PointOffset>
+                                  <uix:PointOffset />
+                                </uix:TargetAnchorable.PointOffset>
+                              </uix:TargetAnchorable>
+                            </uix:NSelectItem.Target>
+                          </uix:NSelectItem>
+                        </Sequence>
+                        <Sequence x:Key="One year and above" DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_41">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NSelectItem DisplayName="Select Item 'UAE Driving License Hel…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NSelectItem_35" Item="One year and above" ScopeIdentifier="c3e5cf82-6f08-489a-aa51-9b56a1a85855" Version="V5">
+                            <uix:NSelectItem.Items>
+                              <scg:List x:TypeArguments="x:String" Capacity="2">
+                                <x:String>Less than 1 year</x:String>
+                                <x:String>One year and above</x:String>
+                              </scg:List>
+                            </uix:NSelectItem.Items>
+                            <uix:NSelectItem.Target>
+                              <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="e3b23c04-3049-4bcf-9c1b-378be4112865" ContentHash="_41mB5Ph8EqYFhSUOvI8gw" CvElementArea="418, 903, 316, 29" CvType="InputBox" DesignTimeRectangle="421, 910, 293, 16" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='mat-form-field-label-717' tag='LABEL' type='' class='mat-form-field-label ng-tns-c5-556 mat-empty mat-form-field-empty ng-star-inserted' aaname='UAE Driving License Held For' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='UAE Driving License Held For' /&gt;" Guid="d77b90f4-3f16-4d1a-9977-e6dd89d5e1bb" InformativeScreenshot="04b3b485646e327a934ad3c08fb2e3e9.png" Reference="WCf4262-9EGvP7sTIveqRQ/izQ8KiXkLkCZiYuiCoBbqw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="e3b23c04-3049-4bcf-9c1b-378be4112865" CvElementArea="418, 903, 316, 29" CvType="InputBox" DesignTimeRectangle="421, 908, 293, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='mat-select-198' tag='SPAN' type='' class='mat-select-placeholder ng-tns-c6-557 ng-star-inserted' aaname='UAE Driving License Held For' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='UAE Driving License Held For' /&gt;" Guid="5521f57b-6942-40df-928d-e185ba363516" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                                <uix:TargetAnchorable.PointOffset>
+                                  <uix:PointOffset />
+                                </uix:TargetAnchorable.PointOffset>
+                              </uix:TargetAnchorable>
+                            </uix:NSelectItem.Target>
+                          </uix:NSelectItem>
+                        </Sequence>
+                      </Switch>
                       <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'NEXT'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_27" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c3750a32-eb46-4c31-ae0a-6ec40fe2c00b" Version="V5">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="967f4b30-9001-40b0-9e55-99f4521b50b2" ContentHash="BaE4c-3PIUS4cE4HQTXSAw" CvElementArea="1021, 948, 62, 44" CvTextArea="1033, 964, 39, 13" CvTextArgument="NEXT" CvType="Button" DesignTimeRectangle="1023, 950, 58, 42" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='NEXT' tag='BUTTON' /&gt;" Guid="8bbed592-99ab-4915-bb7b-99e20ede06f2" InformativeScreenshot="4c95656fffcd29019092acc52dd4998d.png" Reference="WCf4262-9EGvP7sTIveqRQ/ESyheA5Ysk-AzX1dT9c9_Q" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6">
@@ -422,7 +839,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="522,210" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="522,48" sap2010:WorkflowViewState.IdRef="CommentOut_5">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,108" sap2010:WorkflowViewState.IdRef="Sequence_14">
           <sap:WorkflowViewStateService.ViewState>
@@ -755,6 +1172,12 @@
           </uix:NApplicationCard>
         </Sequence>
       </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
   </Sequence>
 </Activity>

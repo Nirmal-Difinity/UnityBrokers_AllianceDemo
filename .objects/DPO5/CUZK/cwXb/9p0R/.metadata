@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Rent_ACar_YES",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "9p0RwqSyZkusCz5GdCZJsg",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/9p0RwqSyZkusCz5GdCZJsg",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/cwXbExZp8EO1tdcd8Ibb_w",
+  "Created": "2025-12-10T05:41:07.9020621Z",
+  "Updated": "2025-12-10T05:41:07.9020621Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

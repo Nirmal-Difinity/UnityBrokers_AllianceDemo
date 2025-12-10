@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Get_quote",
+  "Type": "Screen",
+  "Id": "cwXbExZp8EO1tdcd8Ibb_w",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/cwXbExZp8EO1tdcd8Ibb_w",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/CUZKxpYRbUqC3TH0r17H1A",
+  "Created": "2025-12-10T05:22:50.5656047Z",
+  "Updated": "2025-12-10T05:41:27.6475008Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

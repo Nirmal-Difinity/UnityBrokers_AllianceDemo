@@ -1,0 +1,13 @@
+﻿{
+  "Name": "OK",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "TJmLcHh_PEaNIQq6vmq0pQ",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/TJmLcHh_PEaNIQq6vmq0pQ",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/cwXbExZp8EO1tdcd8Ibb_w",
+  "Created": "2025-12-10T05:56:03.4354399Z",
+  "Updated": "2025-12-10T05:56:03.4354399Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

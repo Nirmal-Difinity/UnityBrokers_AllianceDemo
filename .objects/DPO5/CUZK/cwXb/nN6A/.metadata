@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Geographical Cover *",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "nN6AWbtSYUSfo3PxM97CHw",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/nN6AWbtSYUSfo3PxM97CHw",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/cwXbExZp8EO1tdcd8Ibb_w",
+  "Created": "2025-12-10T05:41:07.7365874Z",
+  "Updated": "2025-12-10T05:41:07.7365874Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

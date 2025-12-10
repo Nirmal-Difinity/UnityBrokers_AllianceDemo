@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1V1O95cevkaYnBGeX9WkDw" Reference="WCf4262-9EGvP7sTIveqRQ/lUN_qJIaaUqnGFJqUE7h1w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="2b29a7ff-a971-4d22-b47a-7587e23ffd5e" CvElementArea="881, 393, 28, 28" CvTextArea="909, 400, 26, 13" CvTextArgument="Yes" CvType="RadioButton" DesignTimeRectangle="882, 394, 53, 23" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="[UiPath.UIAutomationNext.Enums.NElementVisibility.Visible]" FullSelectorArgument="&lt;webctrl aaname='Yes' tag='LABEL' /&gt;" Guid="bdc004b7-7940-408b-ba76-56c09d66ebc1" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="2b29a7ff-a971-4d22-b47a-7587e23ffd5e" CvTextArea="424, 396, 245, 14" CvTextArgument="Personal Accident Benefit for Driver *" CvType="Text" DesignTimeRectangle="424, 394, 245, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Personal Accident Benefit for Driver *' tag='LABEL' type='' class='marginBottomZero fontWeightnormal fontRegular fontfourteen' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Personal Accident Benefit for Driver *' /&gt;" Guid="3a08ac1b-6870-4308-9c0b-10be4eb535f5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="17c669c9f47e09fe21c0a292ee1e7d34.png" xmlns="">0Ab-Vmjw1d0-vpTyHi9T1sA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

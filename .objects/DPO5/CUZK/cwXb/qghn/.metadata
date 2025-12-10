@@ -1,0 +1,13 @@
+﻿{
+  "Name": "PAB_Fordriver_Chargeble",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "qghnc1EZJ0qSvI49r1REaQ",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/qghnc1EZJ0qSvI49r1REaQ",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/cwXbExZp8EO1tdcd8Ibb_w",
+  "Created": "2025-12-10T05:41:07.5895304Z",
+  "Updated": "2025-12-10T05:41:07.5895304Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "RSA_Cover_YES",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "WUL6SyPHPUuC6_vXU65IHw",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/WUL6SyPHPUuC6_vXU65IHw",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/cwXbExZp8EO1tdcd8Ibb_w",
+  "Created": "2025-12-10T05:41:07.7618341Z",
+  "Updated": "2025-12-10T05:41:07.7618341Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

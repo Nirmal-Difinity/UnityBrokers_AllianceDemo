@@ -1,0 +1,13 @@
+﻿{
+  "Name": "PAB_ForPassengers_Chargeble",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "g6IKUH-9oECt7_K0a9p2Pg",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/g6IKUH-9oECt7_K0a9p2Pg",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/cwXbExZp8EO1tdcd8Ibb_w",
+  "Created": "2025-12-10T05:41:07.6846717Z",
+  "Updated": "2025-12-10T05:41:07.6846717Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

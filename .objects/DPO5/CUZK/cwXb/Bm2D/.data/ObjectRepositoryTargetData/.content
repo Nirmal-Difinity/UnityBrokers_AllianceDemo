@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PBqLpRgoc0SU85WsG2Ef-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="97e88b4c-f8d6-4c5f-8be4-fd1931f746ac" CvElementArea="767, 593, 29, 29" CvTextArea="798, 600, 102, 16" CvTextArgument="Not Chargeable" CvType="RadioButton" DesignTimeRectangle="768, 594, 131, 23" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Not Chargeable' idx='2' tag='LABEL' /&gt;" Guid="2980d197-369c-4bc7-b9bc-75ba7afd6a97" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="97e88b4c-f8d6-4c5f-8be4-fd1931f746ac" CvTextArea="424, 498, 279, 14" CvTextArgument="Personal Accident Benefit for Passengers *" CvType="Text" DesignTimeRectangle="424, 496, 279, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Personal Accident Benefit for Passengers * ' tag='LABEL' type='' class='marginBottomZero fontWeightnormal fontRegular fontfourteen' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Personal Accident Benefit for Passengers *' /&gt;" Guid="8a557338-66dc-405b-ac78-6717fa57d228" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="cc22862f5c83102b120a2caa77444dbf.png" xmlns="">0HrMv2MddZkKzok3408_3mA</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

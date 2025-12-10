@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Lahn0bk_JUy4GO18NhkzUw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="97e88b4c-f8d6-4c5f-8be4-fd1931f746ac" CvElementArea="995, 702, 29, 29" CvTextArea="1024, 709, 20, 13" CvTextArgument="No" CvType="RadioButton" DesignTimeRectangle="997, 703, 47, 23" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='No' idx='3' tag='LABEL' /&gt;" Guid="a757deb6-4693-4743-a942-c350c0eea329" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="97e88b4c-f8d6-4c5f-8be4-fd1931f746ac" CvTextArea="424, 705, 186, 14" CvTextArgument="Road side assistance cover *" CvType="Text" DesignTimeRectangle="424, 703, 185, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Road side assistance cover *' tag='LABEL' type='' class='marginBottomZero fontWeightnormal fontRegular fontfourteen' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Road side assistance cover *' /&gt;" Guid="db4760f0-95b4-4175-9ce7-28138023bff1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="936fc7bff069da8e9d94f5316f435962.png" xmlns="">0gS2TkbOYLEuIKdSU7mT-IQ</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

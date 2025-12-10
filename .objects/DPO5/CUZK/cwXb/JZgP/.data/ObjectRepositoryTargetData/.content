@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="LDSbUMkOyUqLvMwulUbWBA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="74abbf1d-fe57-4053-82f4-11d982694798" CvElementArea="996, 809, 29, 28" CvTextArea="1027, 816, 17, 13" CvTextArgument="No" CvType="RadioButton" DesignTimeRectangle="997, 810, 47, 23" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='No' idx='4' tag='LABEL' /&gt;" Guid="abb4b159-f935-44b3-851f-73f8246fdeb3" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="74abbf1d-fe57-4053-82f4-11d982694798" CvTextArea="424, 812, 77, 14" CvTextArgument="Rent a car *" CvType="Text" DesignTimeRectangle="424, 810, 77, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Rent a car *' tag='LABEL' type='' class='marginBottomZero fontWeightnormal fontRegular fontfourteen' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Rent a car *' /&gt;" Guid="7d383e39-1ea5-460c-a4e7-a81f5a45fb41" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="3ebc507b5f789e02060185263fb5a0a8.png" xmlns="">0o3tBummYSEiujMSB-n9Oeg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

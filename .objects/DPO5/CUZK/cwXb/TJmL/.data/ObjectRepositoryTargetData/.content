@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qbTbbWL_lEW8BYjxfMP5RA" Reference="WCf4262-9EGvP7sTIveqRQ/TJmLcHh_PEaNIQq6vmq0pQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="c82d7947-46c5-4f76-8d67-633c6a226f42" CvElementArea="933, 718, 70, 35" CvTextArea="958, 728, 20, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="935, 719, 66, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='OK' tag='BUTTON' /&gt;" Guid="3fb531db-19ef-4969-84ba-3b93a131b194" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="821, 613, 295, 83" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='swal2-title' aaname='Please complete the proposal form to be able to know the plan and premium offered to you from our Underwriters.' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Please complete the proposal form to be able to know the plan and premium offered to you from our Underwriters.' /&gt;" Guid="70d5adcd-d8be-400f-86cc-beba9f209050" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4fdb0897a92518bd739916445d6f69ee.png" xmlns="">0siS7PjS0p0qeLZ2xzYLKeQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="XTLW1SpPS0arcIxV53_kgA" Reference="WCf4262-9EGvP7sTIveqRQ/31ajO4WK9EaGxZNm_0wDRw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="7Z_ySNolB0SBVokqkLcDVg" Reference="WCf4262-9EGvP7sTIveqRQ/31ajO4WK9EaGxZNm_0wDRw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="cbbd4dcd-1342-4d5c-bf53-77778511beab" CvElementArea="1158, 597, 188, 40" CvTextArea="1183, 609, 137, 19" CvTextArgument="Generate Quote" CvType="Button" DesignTimeRectangle="1160, 599, 185, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='agreeBtn' parentid='preferredCompCoverModal' tag='BUTTON' aaname='Generate Quote' /&gt;" Guid="d2ab4170-9cdf-4daf-8e93-aed2e06399d6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="bdd70b08fc12bd81d874c43159696c27.png" xmlns="">0E3WOmw3Paka5o4Rnhdn5zQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="cbbd4dcd-1342-4d5c-bf53-77778511beab" CvElementArea="1158, 597, 188, 40" CvTextArea="1183, 609, 137, 19" CvTextArgument="Generate Quote" CvType="Button" DesignTimeRectangle="1160, 644, 185, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='agreeBtn' parentid='preferredCompCoverModal' tag='BUTTON' aaname='Generate Quote' /&gt;" Guid="d2ab4170-9cdf-4daf-8e93-aed2e06399d6" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="562, 492, 798, 136" FuzzySelectorArgument="&lt;webctrl class='modal-body' parentid='preferredCompCoverModal' tag='DIV' type='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='You are eligible only for Third Party Cover based on your selection. Would You prefer Comprehensive cover? *&amp;#xA;Yes&amp;#xA;No' /&gt;" Guid="7a725a61-b6a8-477b-be85-5ec5705b4395" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="459eea4d650c11fece9e212c11966e08.png" xmlns="">090a1x4zNR0qVwBz0r6jYKQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
