@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Alliance - Motor HOMESE…",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Id": "JKxp3nYS9kmhZeiuTG6I6Q",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/JKxp3nYS9kmhZeiuTG6I6Q",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/pdDYb-Cq40uPBmJQq_jY4A",
+  "Created": "2025-12-12T08:39:40.4202187Z",
+  "Updated": "2025-12-12T08:39:40.4202187Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xXvrVXZ1mUS9n3ewzdTjZQ" Reference="WCf4262-9EGvP7sTIveqRQ/QY801tpUp0WnKGXUcPjWbQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="d8a291ed-7557-4d39-a6f7-e9b6935e3d5f" CvType="AnyWordGroup" DesignTimeRectangle="207, 618, 73, 20" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='iconFont AED_Css' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="df351fa8-acfc-4bfd-b634-4401277fbcec" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="d8a291ed-7557-4d39-a6f7-e9b6935e3d5f" CvTextArea="43, 622, 88, 13" CvTextArgument="Gross Premium" CvType="Text" DesignTimeRectangle="44, 620, 87, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Gross Premium' tag='LABEL' type='' class='smallFont labelMargin' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Gross Premium' /&gt;" Guid="3862e4c4-6dcb-4d7c-858c-988ec50fa76e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8925c70a76fde2bd90b0e6568dd9c435.png" xmlns="">0bR8oO43jh0Gi0iwBcTMM7A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

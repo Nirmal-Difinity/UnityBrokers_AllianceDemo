@@ -50,6 +50,7 @@
       <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
       <x:String>UiPath.Platform.Triggers.Scope</x:String>
       <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -109,19 +110,19 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Additional_Covers_Page_3" sap:VirtualizedContainerService.HintSize="1281,4219" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Additional_Covers_Page_3" sap:VirtualizedContainerService.HintSize="1281,4480" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Alliance - Motor" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,4196" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" IsDisplayNameAuto="True" ScopeGuid="68ed2e57-1584-4d76-b218-98f45ed405b1" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Alliance - Motor" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="488,4457" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" IsDisplayNameAuto="True" ScopeGuid="68ed2e57-1584-4d76-b218-98f45ed405b1" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,4002" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,4263" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -529,15 +530,18 @@
                 </uix:TargetAnchorable>
               </uix:NClick.Target>
             </uix:NClick>
-            <uix:NCheckState DisplayName="Check App State 'Please complete the pro…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,620" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="68ed2e57-1584-4d76-b218-98f45ed405b1" Timeout="10" Version="V5">
+            <uix:NCheckState DisplayName="Check App State 'Please complete the pro…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,881" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="68ed2e57-1584-4d76-b218-98f45ed405b1" Timeout="10" Version="V5">
               <uix:NCheckState.IfExists>
-                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,245" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,506" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="Gross_Premium" />
+                  </Sequence.Variables>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68ed2e57-1584-4d76-b218-98f45ed405b1" Version="V5">
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68ed2e57-1584-4d76-b218-98f45ed405b1" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="c82d7947-46c5-4f76-8d67-633c6a226f42" ContentHash="qbTbbWL_lEW8BYjxfMP5RA" CvElementArea="933, 718, 70, 35" CvTextArea="958, 728, 20, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="935, 719, 66, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='OK' tag='BUTTON' /&gt;" Guid="3fb531db-19ef-4969-84ba-3b93a131b194" InformativeScreenshot="4fdb0897a92518bd739916445d6f69ee.png" Reference="WCf4262-9EGvP7sTIveqRQ/TJmLcHh_PEaNIQq6vmq0pQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
                         <uix:TargetAnchorable.Anchors>
@@ -548,6 +552,18 @@
                       </uix:TargetAnchorable>
                     </uix:NClick.Target>
                   </uix:NClick>
+                  <uix:NGetText DelayBefore="10" DisplayName="Get Text 'Gross Premium'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="68ed2e57-1584-4d76-b218-98f45ed405b1" TextString="[Gross_Premium]" Version="V5">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="online.alliance-uae.com/b2b" CVScreenId="d8a291ed-7557-4d39-a6f7-e9b6935e3d5f" ContentHash="tvoo6sBimEGl98UKbnM_iA" CvType="AnyWordGroup" DesignTimeRectangle="207, 618, 73, 20" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='iconFont AED_Css' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="df351fa8-acfc-4bfd-b634-4401277fbcec" InformativeScreenshot="8925c70a76fde2bd90b0e6568dd9c435.png" Reference="WCf4262-9EGvP7sTIveqRQ/QY801tpUp0WnKGXUcPjWbQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="d8a291ed-7557-4d39-a6f7-e9b6935e3d5f" CvTextArea="43, 622, 88, 13" CvTextArgument="Gross Premium" CvType="Text" DesignTimeRectangle="44, 620, 87, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Gross Premium' tag='LABEL' type='' class='smallFont labelMargin' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Gross Premium' /&gt;" Guid="3862e4c4-6dcb-4d7c-858c-988ec50fa76e" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,109" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;Gross Premium Amount is :&quot; +Gross_Premium.ToString]" />
                 </Sequence>
               </uix:NCheckState.IfExists>
               <uix:NCheckState.IfNotExists>

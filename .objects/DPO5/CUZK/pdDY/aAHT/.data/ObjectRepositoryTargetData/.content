@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EcOLNgck_02OcfjDogmTMw" Reference="WCf4262-9EGvP7sTIveqRQ/aAHTAwdfZUykAxYPxEUZ4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="b1b2d471-cebb-4e7b-b3b2-0a7e7c32d0e0" CvTextArea="1026, 145, 43, 13" CvTextArgument="HOME" CvType="Text" DesignTimeRectangle="1017, 137, 62, 30" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" Guid="8514e5bf-7df6-46bc-afef-7f06486e9cbc" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="[UiPath.UIAutomationNext.Enums.NWaitForReady.Complete]">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="12, 127, 1912, 93" FuzzySelectorArgument="&lt;webctrl id='commonHeader' tag='DIV' type='' class='row headerZindex backWhite' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='HOMESERVICE QUOTE QUOTE LIST POLICY LIST &amp;#xA;Amr Touoan&amp;#xA;1175384' /&gt;" Guid="2909dde3-e493-4fb8-acff-492851a35d5a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="5e8ad14f9aceaee1d789d428f602a0f3.png" xmlns="">0TJ0HkaSXIUuv7FYFRqVc6g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

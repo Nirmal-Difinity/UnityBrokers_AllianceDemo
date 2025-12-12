@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Gross Premium",
+  "Type": "Element",
+  "Id": "QY801tpUp0WnKGXUcPjWbQ",
+  "Reference": "WCf4262-9EGvP7sTIveqRQ/QY801tpUp0WnKGXUcPjWbQ",
+  "ParentRef": "WCf4262-9EGvP7sTIveqRQ/cwXbExZp8EO1tdcd8Ibb_w",
+  "Created": "2025-12-12T09:17:27.6028909Z",
+  "Updated": "2025-12-12T09:17:27.6028909Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.20.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
