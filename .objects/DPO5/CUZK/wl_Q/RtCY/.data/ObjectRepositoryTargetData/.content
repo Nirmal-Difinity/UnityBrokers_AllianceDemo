@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="3DBvAM6PCE6hJzOswx356Q" Reference="WCf4262-9EGvP7sTIveqRQ/RtCY4GBWt0qrPUN4JetSNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="GV4qWkaEck2NAICD9CiBrw" Reference="WCf4262-9EGvP7sTIveqRQ/RtCY4GBWt0qrPUN4JetSNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="9d069833-3f64-48ae-a7f0-5f11103b1bbd" CvElementArea="614, 1037, 120, 26" CvType="InputBox" DesignTimeRectangle="618, 1040, 114, 16" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='mat-input-20' tag='INPUT' formcontrolname='Registration_T_Num' /&gt;" Guid="c0965846-90e4-4acd-8270-1950c8489fb1" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="online.alliance-uae.com/b2b" CVScreenId="81d301ec-5b75-4ad2-9e51-88503091855d" DesignTimeRectangle="820, 1000, 166, 16" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;&lt;webctrl id='mat-input-17' tag='INPUT' formcontrolname='Registration_T_Num' /&gt;" Guid="8c9d8a75-0c1c-4322-8a86-db4f7d3bb750" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Alliance - Motor' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="9d069833-3f64-48ae-a7f0-5f11103b1bbd" CvTextArea="420, 1016, 273, 16" CvTextArgument="Vehicle Registration Number (DXB-J-11111)" CvType="Text" DesignTimeRectangle="421, 1013, 311, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='regis_Title' matching:class='fuzzy' fuzzylevel:class='0.0' tag='DIV' aaname='Vehicle Registration Number (DXB-J-11111)' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Vehicle Registration Number (DXB-J-11111)' /&gt;" Guid="8b89f68e-1273-47aa-beec-46ed6f8c25d4" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="81d301ec-5b75-4ad2-9e51-88503091855d" DesignTimeRectangle="552, 973, 434, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='regis_Title' tag='DIV' type='' aaname='Vehicle Registration Number (DXB-J-11111)' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Vehicle Registration Number (DXB-J-11111)' /&gt;" Guid="f527af2a-1efa-4871-8371-e20e372d5c39" SearchSteps="FuzzySelector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="f17911a255196a6e806a0fb171a2023a.png" xmlns="">0UpPxqLL_jEKJd_2O-SGy3Q</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="5bbdd09e061276752f789a22d4675c9e.png" xmlns="">0EEpaUE_aW0O8n9FAACKwFg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">TypeInto</x:String>
   </ObjectRepositoryTargetData.Data>
